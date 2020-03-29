@@ -1,4 +1,4 @@
-package com.codingblocks;
+package com.codingblocks.array;
 
 public class LowerBound {
     public static void main(String[] args) {
@@ -19,8 +19,24 @@ public class LowerBound {
                 high = mid;
             } else {
                 low = mid + 1;
-            } 
+            }
         }
         return low;
+    }
+    public static int lowerBound2(int[] arr, int value) {
+        int n = arr.length;
+        int low = 0;
+        int high = n - 1;
+        int first_pos = n;
+        while(low <= high) {
+            int mid = (low + high) / 2;
+            if(arr[mid] >= value) {
+                first_pos = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return first_pos;
     }
 }

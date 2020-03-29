@@ -15,6 +15,7 @@
       <list>
         <option value="CPP Input" />
         <option value="Class" />
+        <option value="New" />
       </list>
     </option>
   </component>
@@ -53,7 +54,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -75,13 +76,13 @@
       <recent name="com.codingblocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Formating">
-    <configuration name="BigIntegerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.handy.io.BigIntegerClass" />
+  <component name="RunManager" selected="Application.BostonNumber">
+    <configuration name="BirthdayParadox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.BirthdayParadox" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.handy.io.*" />
+          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dmeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.Dmeo" />
+    <configuration name="BostonNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.BostonNumber" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.*" />
+          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,18 +157,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.RandomQuery" />
-      <item itemvalue="Application.Dmeo" />
       <item itemvalue="Application.RandomQuery2" />
-      <item itemvalue="Application.BigIntegerClass" />
       <item itemvalue="Application.Formating" />
+      <item itemvalue="Application.BirthdayParadox" />
+      <item itemvalue="Application.BostonNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BostonNumber" />
+        <item itemvalue="Application.BirthdayParadox" />
         <item itemvalue="Application.Formating" />
         <item itemvalue="Application.RandomQuery2" />
         <item itemvalue="Application.RandomQuery" />
-        <item itemvalue="Application.BigIntegerClass" />
-        <item itemvalue="Application.RandomQuery2" />
       </list>
     </recent_temporary>
   </component>
@@ -276,54 +277,54 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="258" y="170" key="CommitChangelistDialog2/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584953436366" />
-    <state width="1750" height="254" key="GridCell.Tab.0.bottom" timestamp="1585432699326">
+    <state width="1750" height="281" key="GridCell.Tab.0.bottom" timestamp="1585466106521">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="254" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1585432699326" />
+    <state width="1750" height="281" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1585466106521" />
     <state width="1750" height="231" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="254" key="GridCell.Tab.0.center" timestamp="1585432699325">
+    <state width="1750" height="281" key="GridCell.Tab.0.center" timestamp="1585466106520">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="254" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1585432699325" />
+    <state width="1750" height="281" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1585466106520" />
     <state width="1750" height="231" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="254" key="GridCell.Tab.0.left" timestamp="1585432699325">
+    <state width="1750" height="281" key="GridCell.Tab.0.left" timestamp="1585466106520">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="254" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1585432699325" />
+    <state width="1750" height="281" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1585466106520" />
     <state width="1750" height="231" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203729" />
     <state width="1878" height="295" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036355" />
-    <state width="1750" height="254" key="GridCell.Tab.0.right" timestamp="1585432699326">
+    <state width="1750" height="281" key="GridCell.Tab.0.right" timestamp="1585466106521">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="254" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1585432699326" />
+    <state width="1750" height="281" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1585466106520" />
     <state width="1750" height="231" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1585432378073">
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1585466032963">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1585432378073" />
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1585466032963" />
     <state width="1750" height="238" key="GridCell.Tab.1.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336276" />
-    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1585432378072">
+    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1585466032963">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1585432378072" />
+    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1585466032963" />
     <state width="1750" height="238" key="GridCell.Tab.1.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
-    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1585432378072">
+    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1585466032962">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1585432378072" />
+    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1585466032962" />
     <state width="1750" height="238" key="GridCell.Tab.1.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
-    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1585432378072">
+    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1585466032963">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1585432378072" />
+    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1585466032963" />
     <state width="1750" height="238" key="GridCell.Tab.1.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
-    <state x="427" y="210" key="SettingsEditor" timestamp="1585255368945">
+    <state x="427" y="210" key="SettingsEditor" timestamp="1585464469897">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="427" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1585255368945" />
+    <state x="427" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1585464469897" />
     <state x="2250" y="-199" key="SettingsEditor/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1582281153483" />
     <state x="495" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582267119374">
       <screen x="0" y="23" width="1792" height="1097" />
