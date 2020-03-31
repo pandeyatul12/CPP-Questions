@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a73ae42a-b389-440c-8694-05242ba823e6" name="Default Changelist" comment="" />
+    <list default="true" id="a73ae42a-b389-440c-8694-05242ba823e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +31,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VpPb4kc1NCUaZrdMkSAWzJfn5g" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -54,7 +57,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,20 +79,7 @@
       <recent name="com.codingblocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BostonNumber">
-    <configuration name="BirthdayParadox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.BirthdayParadox" />
-      <module name="Questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CoupleCollector">
     <configuration name="BostonNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.BostonNumber" />
       <module name="Questions" />
@@ -103,21 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Formating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.handy.io.Formating" />
-      <module name="Questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codingblocks.handy.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.RandomQuery" />
+    <configuration name="CoupleCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.CoupleCollector" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomQuery2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.RandomQuery2" />
+    <configuration name="FiboSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.FiboSum" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
@@ -142,8 +119,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.RandomQuery" />
+    <configuration name="LegendresFormula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.LegendresFormula" />
+      <module name="Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Marbles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.Marbles" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
@@ -156,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RandomQuery" />
-      <item itemvalue="Application.RandomQuery2" />
-      <item itemvalue="Application.Formating" />
-      <item itemvalue="Application.BirthdayParadox" />
       <item itemvalue="Application.BostonNumber" />
+      <item itemvalue="Application.Marbles" />
+      <item itemvalue="Application.LegendresFormula" />
+      <item itemvalue="Application.FiboSum" />
+      <item itemvalue="Application.CoupleCollector" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoupleCollector" />
+        <item itemvalue="Application.FiboSum" />
+        <item itemvalue="Application.Marbles" />
+        <item itemvalue="Application.LegendresFormula" />
         <item itemvalue="Application.BostonNumber" />
-        <item itemvalue="Application.BirthdayParadox" />
-        <item itemvalue="Application.Formating" />
-        <item itemvalue="Application.RandomQuery2" />
-        <item itemvalue="Application.RandomQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +248,8 @@
       <workItem from="1585405059497" duration="172000" />
       <workItem from="1585418760650" duration="11823000" />
       <workItem from="1585432515955" duration="182000" />
+      <workItem from="1585494083664" duration="173000" />
+      <workItem from="1585667947337" duration="5649000" />
     </task>
     <servers />
   </component>
@@ -277,54 +269,54 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="258" y="170" key="CommitChangelistDialog2/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584953436366" />
-    <state width="1750" height="281" key="GridCell.Tab.0.bottom" timestamp="1585466106521">
+    <state width="1750" height="283" key="GridCell.Tab.0.bottom" timestamp="1585685341755">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="281" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1585466106521" />
+    <state width="1750" height="283" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1585685341755" />
     <state width="1750" height="231" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="281" key="GridCell.Tab.0.center" timestamp="1585466106520">
+    <state width="1750" height="283" key="GridCell.Tab.0.center" timestamp="1585685341754">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="281" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1585466106520" />
+    <state width="1750" height="283" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1585685341754" />
     <state width="1750" height="231" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="281" key="GridCell.Tab.0.left" timestamp="1585466106520">
+    <state width="1750" height="283" key="GridCell.Tab.0.left" timestamp="1585685341754">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="281" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1585466106520" />
+    <state width="1750" height="283" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1585685341754" />
     <state width="1750" height="231" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203729" />
     <state width="1878" height="295" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036355" />
-    <state width="1750" height="281" key="GridCell.Tab.0.right" timestamp="1585466106521">
+    <state width="1750" height="283" key="GridCell.Tab.0.right" timestamp="1585685341754">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="281" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1585466106520" />
+    <state width="1750" height="283" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1585685341754" />
     <state width="1750" height="231" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1585466032963">
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1585473344045">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1585466032963" />
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1585473344045" />
     <state width="1750" height="238" key="GridCell.Tab.1.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336276" />
-    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1585466032963">
+    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1585473344045">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1585466032963" />
+    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1585473344045" />
     <state width="1750" height="238" key="GridCell.Tab.1.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
-    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1585466032962">
+    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1585473344045">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1585466032962" />
+    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1585473344045" />
     <state width="1750" height="238" key="GridCell.Tab.1.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
-    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1585466032963">
+    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1585473344045">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1585466032963" />
+    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1585473344045" />
     <state width="1750" height="238" key="GridCell.Tab.1.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
-    <state x="427" y="210" key="SettingsEditor" timestamp="1585464469897">
+    <state x="427" y="210" key="SettingsEditor" timestamp="1585494203527">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="427" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1585464469897" />
+    <state x="427" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1585494203527" />
     <state x="2250" y="-199" key="SettingsEditor/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1582281153483" />
     <state x="495" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582267119374">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -334,6 +326,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="0" y="23" width="1792" height="1097" key="dock-window-1/0.23.1792.1097@0.23.1792.1097" timestamp="1578060567776" />
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1585678800654">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1585678800654" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
