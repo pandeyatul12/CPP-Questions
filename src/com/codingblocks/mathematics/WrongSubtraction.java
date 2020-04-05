@@ -1,13 +1,10 @@
 package com.codingblocks.mathematics;
 
-
 import java.io.*;
-import java.math.BigDecimal;
-import java.text.DecimalFormat;
-import java.util.*;
+import java.util.StringTokenizer;
 
-public class RandomQuery2 {
-    public static void main(String[] args) {
+public class WrongSubtraction {
+    public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
@@ -19,38 +16,20 @@ public class RandomQuery2 {
     }
 
     static class Task {
-        public void solve(int testNumber, InputReader in, PrintWriter out) {
+        public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
             int n = in.nextInt();
-            int[] arr = new int[n+1];
-            for(int i=1; i<=n; i++) {
-                arr[i] = in.nextInt();
+            int k = in.nextInt();
+
+            for (int i = 0; i < k; i++) {
+                if (n % 10 == 0) {
+                    n /= 10;
+                }else {
+                    n--;
+                }
             }
-            BigDecimal ans = getCounts2(arr);
-            // 10 9 6 8 5 5 2 8 9 2 2
-            // 20 49 33 9 8 50 21 12 44 23 39 24 10 17 4 17 40 24 19 27 21
-            ans = ans.multiply(new BigDecimal(2));
-            ans = ans.subtract(new BigDecimal(n));
-            ans = ans.divide(new BigDecimal(n*n));
-            DecimalFormat df = new DecimalFormat("0.000000");
-            System.out.println(df.format(ans));
+
+            System.out.println(n);
         }
-    }
-    public static BigDecimal getCounts2(int[] arr) {
-        HashMap<Integer, Integer> last = new HashMap<>();
-        double ans;
-        double prev = 0;
-        BigDecimal bd = new BigDecimal("0.0");
-        for (int i = 1; i < arr.length; i++) {
-            if (!last.containsKey(arr[i])) {
-                ans = prev + i;
-            }else {
-                ans = prev +  i - last.get(arr[i]);
-            }
-            prev = ans;
-            bd = bd.add(new BigDecimal(prev));
-            last.put(arr[i], i);
-        }
-        return bd;
     }
 
     static class InputReader {
@@ -83,6 +62,14 @@ public class RandomQuery2 {
 
         public int nextInt() {
             return Integer.parseInt(next());
+        }
+
+        public char nextChar() {
+            return next().charAt(0);
+        }
+
+        public String nextLine() throws IOException {
+            return reader.readLine().trim();
         }
     }
 }

@@ -2,11 +2,12 @@ package com.codingblocks.mathematics;
 
 
 import java.io.*;
-import java.text.DecimalFormat;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.*;
 
 public class RandomQuery {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
@@ -18,54 +19,39 @@ public class RandomQuery {
     }
 
     static class Task {
-        public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
+        public void solve(int testNumber, InputReader in, PrintWriter out) {
             int n = in.nextInt();
             int[] arr = new int[n+1];
             for(int i=1; i<=n; i++) {
                 arr[i] = in.nextInt();
             }
-            double ans = 0.0d;
-            ArrayList<Integer> counts = getCounts(arr);
-            for (int i = 0; i < counts.size(); i++) {
-                ans += counts.get(i);
-            }
+            BigDecimal ans = getCounts2(arr);
             // 10 9 6 8 5 5 2 8 9 2 2
             // 20 49 33 9 8 50 21 12 44 23 39 24 10 17 4 17 40 24 19 27 21
-
-            ans = 2 * ans; // for l > r we will swap but here if l==r then this is counted twice!
-            ans = ans - n; // all subarray of size 1 (i.e. l==r) have been counted twice
-            ans = ans / (n * n);
-
-            DecimalFormat df = new DecimalFormat("0.000000");
-            out.println(df.format(ans));
+            ans = ans.multiply(new BigDecimal(2));
+            ans = ans.subtract(new BigDecimal(n));
+            ans = ans.divide(new BigDecimal(n*n), 6, RoundingMode.DOWN);
+            System.out.println(ans);
         }
     }
-    public static ArrayList<Integer> getCounts(int[] arr) {
+    public static BigDecimal getCounts2(int[] arr) {
         HashMap<Integer, Integer> last = new HashMap<>();
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(0);
+        double ans;
+        double prev = 0;
+        BigDecimal bd = new BigDecimal("0.0");
         for (int i = 1; i < arr.length; i++) {
             if (!last.containsKey(arr[i])) {
-                list.add(list.get(i-1)+i);
+                ans = prev + i;
             }else {
-                list.add(list.get(i-1) + i - last.get(arr[i]));
+                ans = prev +  i - last.get(arr[i]);
             }
+            prev = ans;
+            bd = bd.add(new BigDecimal(prev));
             last.put(arr[i], i);
         }
-        return list;
+        return bd;
     }
-    public static float expected(int[] arr, int l, int r) {
-        float ans = 0.0f;
-        ans += 1.0 * unique(arr, l, r)/ (arr.length * arr.length);
-        return ans;
-    }
-    public static int unique(int[] arr, int l, int r) {
-        Set<Integer> set = new HashSet<>();
-        for (int i = l; i <= r; i++) {
-            set.add(arr[i]);
-        }
-        return set.size();
-    }
+
     static class InputReader {
         public BufferedReader reader;
         public StringTokenizer tokenizer;
@@ -97,13 +83,30 @@ public class RandomQuery {
         public int nextInt() {
             return Integer.parseInt(next());
         }
-
-        public char nextChar() {
-            return next().charAt(0);
-        }
-
-        public String nextLine() throws IOException {
-            return reader.readLine().trim();
-        }
     }
 }
+/*
+Solution in Python :
+n = int(input())
+arr = [0]
+arr = arr + list(map(int, input().split(' ')))
+
+def getCounts(arr):
+    last = {}
+    ans = 0.0
+    prev = 0.0
+    res = 0.0
+    for i in range(1, len(arr)):
+        if arr[i] not in last:
+            ans = prev + i
+        else:
+            ans = prev + i - last[arr[i]]
+        prev = ans
+        res += ans
+        last[arr[i]] = i
+    return res
+
+ans = (2 * getCounts(arr) - n)/(n*n)
+print("%.6f" % ans)
+
+ */
