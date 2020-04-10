@@ -1,10 +1,11 @@
 package com.codingblocks.numberTheory;
 
 import java.io.*;
-import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.StringTokenizer;
 
-public class PrimeSieve {
+public class PrimeFactors {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -16,24 +17,22 @@ public class PrimeSieve {
         out.close();
     }
 
-    // Time complexity : O(n*log(log(n)))
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
             int n = in.nextInt();
-            boolean[] primes = new boolean[n+1];
-            Arrays.fill(primes, true);
-            for (int i = 2; i*i <= n; i++) {
-                if (primes[i]) {
-                    // update all multiples as not prime
-                    for (int j = i*i; j <= n; j+=i) {
-                        primes[j] = false;
-                    }
+
+            while(n % 2 == 0) {
+                System.out.print(2 + " ");
+                n /= 2;
+            }
+            for (int i = 3; i <= Math.sqrt(n); i+=2) {
+                while(n % i == 0) {
+                    System.out.print(i + " ");
+                    n /= i;
                 }
             }
-            for (int i = 2; i <= n; i++) {
-                if (primes[i]) {
-                    out.print(i + " ");
-                }
+            if (n > 2) {
+                System.out.print(n);
             }
         }
     }

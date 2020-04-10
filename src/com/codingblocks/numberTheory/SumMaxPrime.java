@@ -1,10 +1,9 @@
 package com.codingblocks.numberTheory;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 
-public class PrimeSieve {
+public class SumMaxPrime {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -16,24 +15,23 @@ public class PrimeSieve {
         out.close();
     }
 
-    // Time complexity : O(n*log(log(n)))
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
             int n = in.nextInt();
-            boolean[] primes = new boolean[n+1];
-            Arrays.fill(primes, true);
-            for (int i = 2; i*i <= n; i++) {
-                if (primes[i]) {
-                    // update all multiples as not prime
-                    for (int j = i*i; j <= n; j+=i) {
-                        primes[j] = false;
-                    }
-                }
+            int sum = 0;
+            ArrayList<Integer> list = new ArrayList<>();
+            while (sum+2 <= n) {
+                list.add(2);
+                sum += 2;
             }
-            for (int i = 2; i <= n; i++) {
-                if (primes[i]) {
-                    out.print(i + " ");
-                }
+            if (sum == n-1) {
+                // remove 2 and put 3
+                list.remove(list.size()-1);
+                list.add(3);
+            }
+            out.println(list.size());
+            for (Integer integer : list) {
+                out.print(integer + " ");
             }
         }
     }

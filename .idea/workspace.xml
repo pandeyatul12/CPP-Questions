@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a73ae42a-b389-440c-8694-05242ba823e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/Arrays2D/SpiralPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/arrays2D/SpiralPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/Arrays2D/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/arrays2D/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/PrimeSieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/PrimeSieve.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
       <list>
         <option value="Class" />
         <option value="CPP Input" />
-        <option value="CPP" />
         <option value="New" />
+        <option value="CPP" />
       </list>
     </option>
   </component>
@@ -81,9 +80,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeSieve">
-    <configuration name="PrimeSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.PrimeSieve" />
+  <component name="RunManager" selected="Application.CF1325A">
+    <configuration name="CF1325A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.CF1325A" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.Solution" />
+    <configuration name="PrimeFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.PrimeFactors" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
+          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.PrimeSieve" />
+      <module name="Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,25 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskCodeJam2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.TaskCodeJam2" />
+    <configuration name="SumMaxPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.SumMaxPrime" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskCodeJam3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.TaskCodeJam3" />
-      <module name="Questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
+          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +147,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.TaskCodeJam3" />
-      <item itemvalue="Application.TaskCodeJam2" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.PrimeSieve" />
+      <item itemvalue="Application.PrimeFactors" />
+      <item itemvalue="Application.SumMaxPrime" />
+      <item itemvalue="Application.CF1325A" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF1325A" />
+        <item itemvalue="Application.SumMaxPrime" />
+        <item itemvalue="Application.PrimeFactors" />
         <item itemvalue="Application.PrimeSieve" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.TaskCodeJam2" />
-        <item itemvalue="Application.TaskCodeJam3" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +259,7 @@
       <workItem from="1586019609198" duration="37000" />
       <workItem from="1586029381005" duration="1329000" />
       <workItem from="1586045842152" duration="1217000" />
-      <workItem from="1586527222384" duration="1269000" />
+      <workItem from="1586527222384" duration="4080000" />
     </task>
     <servers />
   </component>
@@ -284,49 +283,49 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="258" y="170" key="CommitChangelistDialog2/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584953436366" />
-    <state width="1750" height="283" key="GridCell.Tab.0.bottom" timestamp="1586533387225">
+    <state width="1750" height="283" key="GridCell.Tab.0.bottom" timestamp="1586542850704">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="283" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586533387225" />
+    <state width="1750" height="283" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586542850704" />
     <state width="1750" height="231" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="283" key="GridCell.Tab.0.center" timestamp="1586533387224">
+    <state width="1750" height="283" key="GridCell.Tab.0.center" timestamp="1586542850703">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="283" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586533387224" />
+    <state width="1750" height="283" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586542850703" />
     <state width="1750" height="231" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="283" key="GridCell.Tab.0.left" timestamp="1586533387223">
+    <state width="1750" height="283" key="GridCell.Tab.0.left" timestamp="1586542850703">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="283" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586533387223" />
+    <state width="1750" height="283" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586542850703" />
     <state width="1750" height="231" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203729" />
     <state width="1878" height="295" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036355" />
-    <state width="1750" height="283" key="GridCell.Tab.0.right" timestamp="1586533387224">
+    <state width="1750" height="283" key="GridCell.Tab.0.right" timestamp="1586542850704">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="283" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586533387224" />
+    <state width="1750" height="283" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586542850704" />
     <state width="1750" height="231" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="237" key="GridCell.Tab.1.bottom" timestamp="1586019276126">
+    <state width="1750" height="237" key="GridCell.Tab.1.bottom" timestamp="1586541869658">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="237" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586019276126" />
+    <state width="1750" height="237" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586541869658" />
     <state width="1750" height="238" key="GridCell.Tab.1.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336276" />
-    <state width="1750" height="237" key="GridCell.Tab.1.center" timestamp="1586019276126">
+    <state width="1750" height="237" key="GridCell.Tab.1.center" timestamp="1586541869658">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="237" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586019276126" />
+    <state width="1750" height="237" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586541869658" />
     <state width="1750" height="238" key="GridCell.Tab.1.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
-    <state width="1750" height="237" key="GridCell.Tab.1.left" timestamp="1586019276126">
+    <state width="1750" height="237" key="GridCell.Tab.1.left" timestamp="1586541869657">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="237" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586019276126" />
+    <state width="1750" height="237" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586541869657" />
     <state width="1750" height="238" key="GridCell.Tab.1.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
-    <state width="1750" height="237" key="GridCell.Tab.1.right" timestamp="1586019276126">
+    <state width="1750" height="237" key="GridCell.Tab.1.right" timestamp="1586541869658">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="237" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586019276126" />
+    <state width="1750" height="237" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586541869658" />
     <state width="1750" height="238" key="GridCell.Tab.1.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
     <state x="427" y="210" key="SettingsEditor" timestamp="1586532803810">
       <screen x="0" y="23" width="1792" height="1097" />

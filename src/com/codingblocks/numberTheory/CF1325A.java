@@ -1,39 +1,25 @@
 package com.codingblocks.numberTheory;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class PrimeSieve {
+public class CF1325A {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
         Task solver = new Task();
-//        int t = in.nextInt();
-        solver.solve(1, in, out);
+        int t = in.nextInt();
+        solver.solve(t, in, out);
         out.close();
     }
 
-    // Time complexity : O(n*log(log(n)))
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int n = in.nextInt();
-            boolean[] primes = new boolean[n+1];
-            Arrays.fill(primes, true);
-            for (int i = 2; i*i <= n; i++) {
-                if (primes[i]) {
-                    // update all multiples as not prime
-                    for (int j = i*i; j <= n; j+=i) {
-                        primes[j] = false;
-                    }
-                }
-            }
-            for (int i = 2; i <= n; i++) {
-                if (primes[i]) {
-                    out.print(i + " ");
-                }
+            for (int i = 0; i < testNumber; i++) {
+                long x = in.nextLong();
+                out.println(1 + " " + (x-1));
             }
         }
     }
