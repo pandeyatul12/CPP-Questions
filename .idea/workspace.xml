@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a73ae42a-b389-440c-8694-05242ba823e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/New.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery$InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery$Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery2$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery2$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/RandomQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/mathematics/RandomQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/RandomQuery2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/Arrays2D/SpiralPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/arrays2D/SpiralPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/Arrays2D/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/arrays2D/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="New" />
         <option value="Class" />
         <option value="CPP Input" />
+        <option value="CPP" />
+        <option value="New" />
       </list>
     </option>
   </component>
@@ -65,7 +59,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -87,13 +81,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.Arrays2D.Solution" />
+  <component name="RunManager" selected="Application.PrimeSieve">
+    <configuration name="PrimeSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.PrimeSieve" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.Arrays2D.*" />
+          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskCodeJam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.TaskCodeJam" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.Arrays2D.Solution" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
+          <option name="PATTERN" value="com.codingblocks.arrays2D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,18 +149,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.TaskCodeJam" />
       <item itemvalue="Application.TaskCodeJam3" />
       <item itemvalue="Application.TaskCodeJam2" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.PrimeSieve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeSieve" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.TaskCodeJam2" />
         <item itemvalue="Application.TaskCodeJam3" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.TaskCodeJam" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +260,7 @@
       <workItem from="1586019609198" duration="37000" />
       <workItem from="1586029381005" duration="1329000" />
       <workItem from="1586045842152" duration="1217000" />
+      <workItem from="1586527222384" duration="1269000" />
     </task>
     <servers />
   </component>
@@ -289,28 +284,28 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="258" y="170" key="CommitChangelistDialog2/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584953436366" />
-    <state width="1750" height="283" key="GridCell.Tab.0.bottom" timestamp="1586047173509">
+    <state width="1750" height="283" key="GridCell.Tab.0.bottom" timestamp="1586533387225">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="283" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586047173509" />
+    <state width="1750" height="283" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586533387225" />
     <state width="1750" height="231" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="283" key="GridCell.Tab.0.center" timestamp="1586047173509">
+    <state width="1750" height="283" key="GridCell.Tab.0.center" timestamp="1586533387224">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="283" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586047173509" />
+    <state width="1750" height="283" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586533387224" />
     <state width="1750" height="231" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="283" key="GridCell.Tab.0.left" timestamp="1586047173508">
+    <state width="1750" height="283" key="GridCell.Tab.0.left" timestamp="1586533387223">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="283" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586047173508" />
+    <state width="1750" height="283" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586533387223" />
     <state width="1750" height="231" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203729" />
     <state width="1878" height="295" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036355" />
-    <state width="1750" height="283" key="GridCell.Tab.0.right" timestamp="1586047173509">
+    <state width="1750" height="283" key="GridCell.Tab.0.right" timestamp="1586533387224">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="283" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586047173509" />
+    <state width="1750" height="283" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586533387224" />
     <state width="1750" height="231" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584954203730" />
     <state width="1878" height="295" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
     <state width="1750" height="237" key="GridCell.Tab.1.bottom" timestamp="1586019276126">
@@ -333,10 +328,10 @@
     </state>
     <state width="1750" height="237" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586019276126" />
     <state width="1750" height="238" key="GridCell.Tab.1.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584946336275" />
-    <state x="427" y="210" key="SettingsEditor" timestamp="1585494203527">
+    <state x="427" y="210" key="SettingsEditor" timestamp="1586532803810">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="427" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1585494203527" />
+    <state x="427" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1586532803810" />
     <state x="2250" y="-199" key="SettingsEditor/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1582281153483" />
     <state x="495" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582267119374">
       <screen x="0" y="23" width="1792" height="1097" />

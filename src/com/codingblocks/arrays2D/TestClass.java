@@ -1,4 +1,4 @@
-package com.codingblocks.Arrays2D;
+package com.codingblocks.arrays2D;
 
 import java.util.*;
 
