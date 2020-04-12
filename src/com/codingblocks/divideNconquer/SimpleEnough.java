@@ -3,7 +3,7 @@ package com.codingblocks.divideNconquer;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class BookAllocation {
+public class SimpleEnough {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -16,61 +16,52 @@ public class BookAllocation {
     }
 
     static class Task {
+        int l, r;
+        int count = 0;
+        int ones = 0;
+
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
             int n = in.nextInt();
-            int m = in.nextInt();
-            int[] arr = new int[n];
-            for (int i = 0; i < n; i++) {
-                arr[i] = in.nextInt();
-            }
-            int s = findMax(arr);
-            int e = findSum(arr);
-            int finalans = 0;
-            int p = 0;      // pages
-            while (s <= e) {
-                p = (s + e) / 2;
-                if (canDo(arr, p, m)) {
-                    finalans = p;
-                    e = p - 1;
-                }else{
-                    s = p + 1;
-                }
-            }
-            out.println(finalans);
+            l = in.nextInt();
+            r = in.nextInt();
+            ans(n);
+            out.println(ones);
         }
-        private boolean canDo(int[] arr, int p, int students) {
-            int s = 1;
-            int count = 0;
-            for (int value : arr) {
-                if (count + value > p) {
-                    count = value;
-                    s++;
-                    if (s > students) {
-                        return false;
+
+        public void ans(int n) {
+            if (n == 1 || n == 0) {
+                count++;
+                if (n == 1) {
+                    if (count >= l && count <= r) {
+                        ones++;
                     }
-                } else {
-                    count += value;
                 }
+                return;
             }
-            return true;
+            // check how much will be in this subtree
+            double val;
+            int digits = (int) ((Math.log(n) / Math.log(2))+ 1);
+            if(isPowerof2(n)){
+                val = Math.pow(2, digits-1) - 1;
+            } else{
+                val = Math.pow(2, digits) - 1;
+            }
+
+            if (count > r) {
+                return;
+            }
+
+            if (count+val >= 0 && count+val < l) {
+                count += val;
+                return;
+            }
+            ans(n/2);
+            ans(n%2);
+            ans(n/2);
         }
 
-        private static int findSum(int[] boards) {
-            int sum = 0;
-            for (int board : boards) {
-                sum += board;
-            }
-            return sum;
-        }
-
-        public static int findMax(int[] arr) {
-            int max = arr[0];
-            for (int i = 1; i < arr.length; i++) {
-                if (arr[i] > max) {
-                    max = arr[i];
-                }
-            }
-            return max;
+        private boolean isPowerof2(int n) {
+            return (n & (n-1)) == 1;
         }
     }
 

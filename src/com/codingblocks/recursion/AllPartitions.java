@@ -24,10 +24,8 @@ public class AllPartitions {
         }
 
         for (int i = 1; i <= unprocessed.length() ; i++) {
-
             String processed = unprocessed.substring(0,i);
-            ArrayList<String> temp = new ArrayList<>();
-            temp.addAll(list);
+            ArrayList<String> temp = new ArrayList<>(list);
             temp.add(processed);
             partitions(temp, unprocessed.substring(i));
         }

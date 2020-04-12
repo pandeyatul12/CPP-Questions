@@ -3,11 +3,14 @@ package com.codingblocks.array;
 public class LowerBound {
     public static void main(String[] args) {
         int[] arr = { 10, 20, 30, 40, 50 };
-        int low = 10;
-        int high = 40;
-        int l1 = lowerBound(arr, low);
-        int l2 = lowerBound(arr, high);
-        System.out.println(l2 - l1);
+//        int low = 10;
+//        int high = 40;
+//        int l1 = lowerBound(arr, low);
+//        int l2 = lowerBound(arr, high);
+//        System.out.println(l2 - l1);
+
+        int n = 32;
+        System.out.println(arr[lowerBound(arr, n)]);
     }
     public static int lowerBound(int[] array, int value) {
         int low = 0;

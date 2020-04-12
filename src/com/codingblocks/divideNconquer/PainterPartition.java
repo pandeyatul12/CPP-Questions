@@ -1,9 +1,12 @@
 package com.codingblocks.divideNconquer;
 
 import java.io.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.StringTokenizer;
 
-public class BookAllocation {
+public class PainterPartition {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -17,45 +20,46 @@ public class BookAllocation {
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
+            int p = in.nextInt();
             int n = in.nextInt();
-            int m = in.nextInt();
             int[] arr = new int[n];
             for (int i = 0; i < n; i++) {
                 arr[i] = in.nextInt();
             }
             int s = findMax(arr);
             int e = findSum(arr);
-            int finalans = 0;
-            int p = 0;      // pages
+            int t = 0;
+            int ans = 0;
             while (s <= e) {
-                p = (s + e) / 2;
-                if (canDo(arr, p, m)) {
-                    finalans = p;
-                    e = p - 1;
+                t = (s + e) / 2;
+                if (canDo(arr, t, p)) {
+                    ans = t;
+                    e = t - 1;
                 }else{
-                    s = p + 1;
+                    s = t + 1;
                 }
             }
-            out.println(finalans);
+            out.println(ans);
         }
-        private boolean canDo(int[] arr, int p, int students) {
-            int s = 1;
-            int count = 0;
+
+        private boolean canDo(int[] arr, int time, int painters) {
+            int currentPainters = 1;
+            int painted = 0;
             for (int value : arr) {
-                if (count + value > p) {
-                    count = value;
-                    s++;
-                    if (s > students) {
+                if (painted + value > time) {
+                    painted = value;
+                    currentPainters++;
+                    if (currentPainters > painters) {
                         return false;
                     }
                 } else {
-                    count += value;
+                    painted += value;
                 }
             }
             return true;
         }
 
-        private static int findSum(int[] boards) {
+        private int findSum(int[] boards) {
             int sum = 0;
             for (int board : boards) {
                 sum += board;
@@ -72,6 +76,8 @@ public class BookAllocation {
             }
             return max;
         }
+
+
     }
 
     static class InputReader {
