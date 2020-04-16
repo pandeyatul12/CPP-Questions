@@ -1,12 +1,9 @@
-package com.codingblocks.divideNconquer;
+package com.codingblocks.mathematics;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 import java.util.StringTokenizer;
 
-public class PainterPartition {
+public class Rally {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -20,64 +17,33 @@ public class PainterPartition {
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int p = in.nextInt();
             int n = in.nextInt();
             int[] arr = new int[n];
+            int min = Integer.MAX_VALUE;
+            int max = Integer.MIN_VALUE;
             for (int i = 0; i < n; i++) {
                 arr[i] = in.nextInt();
-            }
-            int s = findMax(arr);
-            int e = findSum(arr);
-            int t = 0;
-            int ans = 0;
-            while (s <= e) {
-                t = (s + e) / 2;
-                if (canDo(arr, t, p)) {
-                    ans = t;
-                    e = t - 1;
-                }else{
-                    s = t + 1;
-                }
-            }
-            out.println(ans);
-        }
-
-        private boolean canDo(int[] arr, int time, int painters) {
-            int currentPainters = 1;
-            int painted = 0;
-            for (int value : arr) {
-                if (painted + value > time) {
-                    painted = value;
-                    currentPainters++;
-                    if (currentPainters > painters) {
-                        return false;
-                    }
-                } else {
-                    painted += value;
-                }
-            }
-            return true;
-        }
-
-        private int findSum(int[] boards) {
-            int sum = 0;
-            for (int board : boards) {
-                sum += board;
-            }
-            return sum;
-        }
-
-        public static int findMax(int[] arr) {
-            int max = arr[0];
-            for (int i = 1; i < arr.length; i++) {
-                if (arr[i] > max) {
+                if (arr[i] > max){
                     max = arr[i];
                 }
+                if (arr[i] < min){
+                    min = arr[i];
+                }
             }
-            return max;
+            int sum = 0;
+            int pos = 0;
+            int min_sum = Integer.MAX_VALUE;
+            for (int j = min; j <= max; j++) {
+                sum = 0;
+                for (int i = 0; i < n; i++) {
+                    sum += Math.pow(arr[i] - j, 2);
+                }
+                if (sum < min_sum){
+                    min_sum = sum;
+                }
+            }
+            out.println(min_sum);
         }
-
-
     }
 
     static class InputReader {
@@ -99,7 +65,7 @@ public class PainterPartition {
             }
             return tokenizer.nextToken();
         }
-        
+
         public long nextLong() {
             return Long.parseLong(next());
         }

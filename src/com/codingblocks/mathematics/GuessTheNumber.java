@@ -1,12 +1,11 @@
-package com.codingblocks.divideNconquer;
+package com.codingblocks.mathematics;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
-public class PainterPartition {
+public class GuessTheNumber {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -20,64 +19,49 @@ public class PainterPartition {
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int p = in.nextInt();
             int n = in.nextInt();
-            int[] arr = new int[n];
-            for (int i = 0; i < n; i++) {
-                arr[i] = in.nextInt();
+            int m = in.nextInt();
+            Map<Integer, Integer> map = new HashMap<>();
+
+            for (int i = 0; i < m; i++) {
+                int key = in.nextInt();
+                int value =  in.nextInt();
+                if (key == 1 && value == 0 && n > 1){
+                    out.println(-1);
+                    return;
+                }
+                if (map.containsKey(key) && map.get(key) != value){
+                    out.println(-1);
+                    return;
+                }
+                if (key > n){
+                    out.println(-1);
+                    return;
+                }
+                map.put(key, value);
             }
-            int s = findMax(arr);
-            int e = findSum(arr);
-            int t = 0;
-            int ans = 0;
-            while (s <= e) {
-                t = (s + e) / 2;
-                if (canDo(arr, t, p)) {
-                    ans = t;
-                    e = t - 1;
+            StringBuilder ans = new StringBuilder();
+            if (n == 1) {
+                if (map.containsKey(1)){
+                    ans.append(map.get(1));
                 }else{
-                    s = t + 1;
+                    ans.append(0);
+                }
+            }else {
+                for (int i = 1; i <= n; i++) {
+                    if (map.containsKey(i)){
+                        ans.append(map.get(i));
+                    }else{
+                        if (i == 1){
+                            ans.append(1);
+                        }else{
+                            ans.append(0);
+                        }
+                    }
                 }
             }
             out.println(ans);
         }
-
-        private boolean canDo(int[] arr, int time, int painters) {
-            int currentPainters = 1;
-            int painted = 0;
-            for (int value : arr) {
-                if (painted + value > time) {
-                    painted = value;
-                    currentPainters++;
-                    if (currentPainters > painters) {
-                        return false;
-                    }
-                } else {
-                    painted += value;
-                }
-            }
-            return true;
-        }
-
-        private int findSum(int[] boards) {
-            int sum = 0;
-            for (int board : boards) {
-                sum += board;
-            }
-            return sum;
-        }
-
-        public static int findMax(int[] arr) {
-            int max = arr[0];
-            for (int i = 1; i < arr.length; i++) {
-                if (arr[i] > max) {
-                    max = arr[i];
-                }
-            }
-            return max;
-        }
-
-
     }
 
     static class InputReader {
@@ -99,7 +83,7 @@ public class PainterPartition {
             }
             return tokenizer.nextToken();
         }
-        
+
         public long nextLong() {
             return Long.parseLong(next());
         }
