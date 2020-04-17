@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a73ae42a-b389-440c-8694-05242ba823e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/divideNconquer/PainterPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/divideNconquer/PainterPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumOfTripletsHard$InputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumOfTripletsHard$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumOfTripletsHard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/cpp/InputForCPP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/cpp/InputForCPP2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/cpp/InputForCPP3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/cpp/InputForCPP4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/handy/io/cpp/InputForCPP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/SumOfTripletsHard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/SumOfGcdHard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CPP Input" />
         <option value="New" />
+        <option value="Class" />
         <option value="CPP" />
       </list>
     </option>
@@ -48,14 +55,15 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549101337961" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.codingblocks" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/codingblocks/numberTheory" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/codingblocks/handy" />
@@ -63,23 +71,23 @@
       <recent name="$PROJECT_DIR$/src/com/codingblocks" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codingblocks.handy.io.cpp" />
       <recent name="com.codingblocks.greedy" />
       <recent name="com.codingblocks.recursion" />
       <recent name="com.codingblocks.numberTheory" />
       <recent name="com.codingblocks.mathematics" />
-      <recent name="com.codingblocks.bitmasking" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.codingblocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessTheNumber">
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.Demo" />
+  <component name="RunManager" selected="Application.CitySavers">
+    <configuration name="BuildStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.adhoc.BuildStairs" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
+          <option name="PATTERN" value="com.codingblocks.adhoc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EXPEDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.greedy.EXPEDI" />
+    <configuration name="CitySavers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.adhoc.CitySavers" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.greedy.*" />
+          <option name="PATTERN" value="com.codingblocks.adhoc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendedEuclidean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.ExtendedEuclidean" />
+    <configuration name="InputForCPP2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.handy.io.cpp.InputForCPP2" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
+          <option name="PATTERN" value="com.codingblocks.handy.io.cpp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.GuessTheNumber" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.handy.io.cpp.Main" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
+          <option name="PATTERN" value="com.codingblocks.handy.io.cpp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,25 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.Rally" />
+    <configuration name="NumberOfAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.strings.NumberOfAnagrams" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaxIncrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.mathematics.TaxIncrease" />
-      <module name="Questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codingblocks.mathematics.*" />
+          <option name="PATTERN" value="com.codingblocks.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ExtendedEuclidean" />
-      <item itemvalue="Application.TaxIncrease" />
-      <item itemvalue="Application.Demo (1)" />
-      <item itemvalue="Application.GuessTheNumber" />
-      <item itemvalue="Application.Rally" />
+      <item itemvalue="Application.InputForCPP2" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.NumberOfAnagrams" />
+      <item itemvalue="Application.BuildStairs" />
+      <item itemvalue="Application.CitySavers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessTheNumber" />
-        <item itemvalue="Application.Rally" />
-        <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.TaxIncrease" />
-        <item itemvalue="Application.ExtendedEuclidean" />
+        <item itemvalue="Application.CitySavers" />
+        <item itemvalue="Application.BuildStairs" />
+        <item itemvalue="Application.NumberOfAnagrams" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.InputForCPP2" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +267,8 @@
       <workItem from="1586694411779" duration="12348000" />
       <workItem from="1586771435731" duration="11045000" />
       <workItem from="1586810236402" duration="38173000" />
-      <workItem from="1586994741798" duration="4406000" />
+      <workItem from="1586994741798" duration="14229000" />
+      <workItem from="1587063762711" duration="17029000" />
     </task>
     <servers />
   </component>
@@ -296,54 +292,54 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="258" y="170" key="CommitChangelistDialog2/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584953436366" />
-    <state width="1750" height="193" key="GridCell.Tab.0.bottom" timestamp="1586999311942">
+    <state width="1750" height="297" key="GridCell.Tab.0.bottom" timestamp="1587134194808">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="193" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586999311942" />
+    <state width="1750" height="297" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587134194808" />
     <state width="1750" height="237" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="193" key="GridCell.Tab.0.center" timestamp="1586999311942">
+    <state width="1750" height="297" key="GridCell.Tab.0.center" timestamp="1587134194807">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="193" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586999311942" />
+    <state width="1750" height="297" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587134194807" />
     <state width="1750" height="237" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="193" key="GridCell.Tab.0.left" timestamp="1586999311942">
+    <state width="1750" height="297" key="GridCell.Tab.0.left" timestamp="1587134194807">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="193" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586999311942" />
+    <state width="1750" height="297" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587134194807" />
     <state width="1750" height="237" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036355" />
-    <state width="1750" height="193" key="GridCell.Tab.0.right" timestamp="1586999311942">
+    <state width="1750" height="297" key="GridCell.Tab.0.right" timestamp="1587134194808">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="193" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586999311942" />
+    <state width="1750" height="297" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587134194808" />
     <state width="1750" height="237" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1586993436553">
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1587128134105">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586993436553" />
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587128134105" />
     <state width="1750" height="237" key="GridCell.Tab.1.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429567" />
-    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1586993436553">
+    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1587128134104">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586993436553" />
+    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587128134104" />
     <state width="1750" height="237" key="GridCell.Tab.1.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
-    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1586993436553">
+    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1587128134104">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586993436553" />
+    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587128134104" />
     <state width="1750" height="237" key="GridCell.Tab.1.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
-    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1586993436553">
+    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1587128134104">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586993436553" />
+    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587128134104" />
     <state width="1750" height="237" key="GridCell.Tab.1.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
-    <state x="427" y="210" key="SettingsEditor" timestamp="1586998940478">
+    <state x="427" y="210" key="SettingsEditor" timestamp="1587129519295">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="427" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1586998940478" />
+    <state x="427" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1587129519295" />
     <state x="2250" y="-199" key="SettingsEditor/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1582281153483" />
     <state x="495" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582267119374">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -353,10 +349,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="634" y="339" key="extract.method.dialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586000982194" />
-    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1586998648543">
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1587065015753">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1586998648543" />
+    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1587065015753" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -390,11 +386,6 @@
           <url>file://$PROJECT_DIR$/src/com/codingblocks/greedy/DEFKIN.java</url>
           <line>37</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/codingblocks/mathematics/TaxIncrease.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

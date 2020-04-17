@@ -1,9 +1,9 @@
-package com.codingblocks.numberTheory;
+package com.codingblocks.strings;
 
 import java.io.*;
-import java.util.StringTokenizer;
+import java.util.*;
 
-public class SumOfTripletsHard {
+public class NumberOfAnagrams {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -18,22 +18,43 @@ public class SumOfTripletsHard {
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
             int n = in.nextInt();
-            int k = in.nextInt();
-            long[] dp = new long[k+1];
-            for (int i = k; i >= 1; i--) {
-                dp[i] = (long) Math.pow(k/i, n);
-                for (int j = i*2; j <= k; j+=i) {
-                    dp[i] -= dp[j];
+            HashMap<String, Integer> map = new HashMap<>();
+            for (int i = 0; i < n; i++) {
+                String str = in.next();
+                char[] ch = str.toCharArray();
+                Arrays.sort(ch);
+                String s = String.valueOf(ch);
+                if(map.containsKey(s)){
+                    map.put(s, map.get(s) + 1);
+                }else{
+                    map.put(s, 1);
                 }
             }
-            long ans = 0;
-            for (int i = 1; i <= k; i++) {
-                ans += dp[i] * i;
+            int count = 0;
+            for (Map.Entry<String, Integer> entry: map.entrySet()){
+                count += nCr(entry.getValue());
             }
-            ans = (long) (ans % (Math.pow(10, 9) + 7));
-            out.println(ans);
+            out.println(count);
+        }
+        public static int nCr(int n){
+            return n * (n - 1) / 2;
+        }
+        public static int xor(String a){
+            int ans = 0;
+            for (int i = 0; i < a.length(); i++) {
+                ans ^= a.charAt(i);
+            }
+            return ans;
+        }
+        public static boolean check(String a, String b){
+            int ans = 0;
+            for (int i = 0; i < a.length(); i++) {
+                ans ^= a.charAt(i) ^ b.charAt(i);
+            }
+            return ans == 0;
         }
     }
+
     static class InputReader {
         public BufferedReader reader;
         public StringTokenizer tokenizer;
