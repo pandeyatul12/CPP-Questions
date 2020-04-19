@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a73ae42a-b389-440c-8694-05242ba823e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/CitySavers$InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/CitySavers$InputReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/CitySavers$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/CitySavers$Task.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +16,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CPP Input" />
-        <option value="CPP" />
         <option value="Class" />
         <option value="New" />
+        <option value="CPP" />
       </list>
     </option>
   </component>
@@ -75,13 +73,13 @@
       <recent name="com.codingblocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="BuildStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.adhoc.BuildStairs" />
+  <component name="RunManager" selected="Application.PrimeFactorsTillN">
+    <configuration name="EvenOddDivisors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.EvenOddDivisors" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.adhoc.*" />
+          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CitySavers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.adhoc.CitySavers" />
+    <configuration name="LargeFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.LargeFactorial" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.adhoc.*" />
+          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.Demo" />
+    <configuration name="MMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.MMI" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.*" />
+          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxExcludingCurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.array.MaxExcludingCurrent" />
+    <configuration name="PrimeFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.PrimeFactors" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.array.*" />
+          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemainderMinimisation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.array.RemainderMinimisation" />
+    <configuration name="PrimeFactorsTillN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.numberTheory.PrimeFactorsTillN" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.array.*" />
+          <option name="PATTERN" value="com.codingblocks.numberTheory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +140,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BuildStairs" />
-      <item itemvalue="Application.CitySavers" />
-      <item itemvalue="Application.MaxExcludingCurrent" />
-      <item itemvalue="Application.RemainderMinimisation" />
-      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.MMI" />
+      <item itemvalue="Application.LargeFactorial" />
+      <item itemvalue="Application.EvenOddDivisors" />
+      <item itemvalue="Application.PrimeFactors" />
+      <item itemvalue="Application.PrimeFactorsTillN" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.RemainderMinimisation" />
-        <item itemvalue="Application.MaxExcludingCurrent" />
-        <item itemvalue="Application.CitySavers" />
-        <item itemvalue="Application.BuildStairs" />
+        <item itemvalue="Application.PrimeFactorsTillN" />
+        <item itemvalue="Application.PrimeFactors" />
+        <item itemvalue="Application.EvenOddDivisors" />
+        <item itemvalue="Application.LargeFactorial" />
+        <item itemvalue="Application.MMI" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +262,9 @@
       <workItem from="1586994741798" duration="14229000" />
       <workItem from="1587063762711" duration="19330000" />
       <workItem from="1587144011215" duration="2003000" />
+      <workItem from="1587147156207" duration="1041000" />
+      <workItem from="1587247712072" duration="603000" />
+      <workItem from="1587297284909" duration="6260000" />
     </task>
     <servers />
   </component>
@@ -287,49 +288,49 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="258" y="170" key="CommitChangelistDialog2/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584953436366" />
-    <state width="1750" height="297" key="GridCell.Tab.0.bottom" timestamp="1587147014692">
+    <state width="1750" height="297" key="GridCell.Tab.0.bottom" timestamp="1587314665163">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="297" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587147014692" />
+    <state width="1750" height="297" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587314665163" />
     <state width="1750" height="237" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="297" key="GridCell.Tab.0.center" timestamp="1587147014691">
+    <state width="1750" height="297" key="GridCell.Tab.0.center" timestamp="1587314665163">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="297" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587147014691" />
+    <state width="1750" height="297" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587314665163" />
     <state width="1750" height="237" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="297" key="GridCell.Tab.0.left" timestamp="1587147014691">
+    <state width="1750" height="297" key="GridCell.Tab.0.left" timestamp="1587314665162">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="297" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587147014691" />
+    <state width="1750" height="297" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587314665162" />
     <state width="1750" height="237" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036355" />
-    <state width="1750" height="297" key="GridCell.Tab.0.right" timestamp="1587147014691">
+    <state width="1750" height="297" key="GridCell.Tab.0.right" timestamp="1587314665163">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="297" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587147014691" />
+    <state width="1750" height="297" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587314665163" />
     <state width="1750" height="237" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1587140525596">
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1587307255667">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587140525596" />
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587307255667" />
     <state width="1750" height="237" key="GridCell.Tab.1.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429567" />
-    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1587140525596">
+    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1587307255666">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587140525596" />
+    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587307255666" />
     <state width="1750" height="237" key="GridCell.Tab.1.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
-    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1587140525595">
+    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1587307255666">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587140525595" />
+    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587307255666" />
     <state width="1750" height="237" key="GridCell.Tab.1.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
-    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1587140525596">
+    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1587307255666">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587140525596" />
+    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587307255666" />
     <state width="1750" height="237" key="GridCell.Tab.1.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
     <state x="427" y="210" key="SettingsEditor" timestamp="1587129519295">
       <screen x="0" y="23" width="1792" height="1097" />
