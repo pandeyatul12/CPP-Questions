@@ -1,8 +1,10 @@
 package com.codingblocks.recursion;
-import java.io.*;
-import java.util.StringTokenizer;
 
-public class Permutations {
+import java.io.*;
+import java.lang.reflect.Array;
+import java.util.*;
+
+public class TrickyPermutations {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -15,15 +17,21 @@ public class Permutations {
     }
 
     static class Task {
+        Set<String> set = new HashSet<>();
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
             String s = in.next();
+            char[] ch = s.toCharArray();
+            Arrays.sort(ch);
+            s = String.valueOf(ch);
             permu("", s);
         }
 
-        // lexographic order
-        public void permu(String p, String u){
+        private void permu(String p, String u) {
             if (u.isEmpty()){
-                System.out.println(p);
+                if (!set.contains(p)){
+                    System.out.println(p);
+                    set.add(p);
+                }
                 return;
             }
             for (int i = 0; i < u.length(); i++) {
@@ -32,21 +40,8 @@ public class Permutations {
                 String l = u.substring(i+1);
                 permu(p+ch, f+l);
             }
-
         }
 
-//        public void permu(String p, String u) {
-//            if (u.isEmpty()){
-//                System.out.println(p);
-//                return;
-//            }
-//            char ch = u.charAt(0);
-//            for (int i = 0; i <= p.length(); i++) {
-//                String f = p.substring(0, i);
-//                String l = p.substring(i);
-//                permu(f + ch + l, u.substring(1));
-//            }
-//        }
     }
 
     static class InputReader {

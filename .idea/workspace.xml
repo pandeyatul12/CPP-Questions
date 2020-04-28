@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a73ae42a-b389-440c-8694-05242ba823e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/recursion/Permutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
       <list>
         <option value="CPP Input" />
         <option value="Class" />
-        <option value="New" />
         <option value="CPP" />
+        <option value="New" />
       </list>
     </option>
   </component>
@@ -73,13 +74,13 @@
       <recent name="com.codingblocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Permutations">
-    <configuration name="AllPartitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.recursion.AllPartitions" />
+  <component name="RunManager" selected="Application.SubSetZeroSum">
+    <configuration name="ArrayToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.handy.io.ArrayToString" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.recursion.*" />
+          <option name="PATTERN" value="com.codingblocks.handy.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,34 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodesOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.recursion.CodesOfStrings" />
-      <module name="Questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codingblocks.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfBinaryStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.recursion.NumberOfBinaryStrings" />
-      <module name="Questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codingblocks.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pairing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.recursion.Pairing" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.recursion.Demo" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
@@ -139,20 +114,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubSetZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.recursion.SubSetZeroSum" />
+      <module name="Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingblocks.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrickyPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.recursion.TrickyPermutations" />
+      <module name="Questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingblocks.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Pairing" />
-      <item itemvalue="Application.AllPartitions" />
-      <item itemvalue="Application.CodesOfStrings" />
-      <item itemvalue="Application.NumberOfBinaryStrings" />
       <item itemvalue="Application.Permutations" />
+      <item itemvalue="Application.TrickyPermutations" />
+      <item itemvalue="Application.ArrayToString" />
+      <item itemvalue="Application.SubSetZeroSum" />
+      <item itemvalue="Application.Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubSetZeroSum" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.TrickyPermutations" />
         <item itemvalue="Application.Permutations" />
-        <item itemvalue="Application.NumberOfBinaryStrings" />
-        <item itemvalue="Application.CodesOfStrings" />
-        <item itemvalue="Application.AllPartitions" />
-        <item itemvalue="Application.Pairing" />
+        <item itemvalue="Application.ArrayToString" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +269,7 @@
       <workItem from="1587393177877" duration="540000" />
       <workItem from="1587413883860" duration="1532000" />
       <workItem from="1587908927066" duration="7802000" />
-      <workItem from="1588072016203" duration="836000" />
+      <workItem from="1588072016203" duration="5303000" />
     </task>
     <servers />
   </component>
@@ -276,10 +277,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="238" key="#Inspections" timestamp="1586876682172">
+    <state x="496" y="238" key="#Inspections" timestamp="1588078737884">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="238" key="#Inspections/0.23.1792.1097@0.23.1792.1097" timestamp="1586876682172" />
+    <state x="496" y="238" key="#Inspections/0.23.1792.1097@0.23.1792.1097" timestamp="1588078737884" />
     <state x="701" y="284" key="#com.intellij.ide.util.MemberChooser" timestamp="1587145492639">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -292,49 +293,49 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="258" y="170" key="CommitChangelistDialog2/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584953436366" />
-    <state width="1750" height="297" key="GridCell.Tab.0.bottom" timestamp="1588072724221">
+    <state width="1750" height="413" key="GridCell.Tab.0.bottom" timestamp="1588079436951">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="297" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1588072724221" />
+    <state width="1750" height="413" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1588079436951" />
     <state width="1750" height="237" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="297" key="GridCell.Tab.0.center" timestamp="1588072724220">
+    <state width="1750" height="413" key="GridCell.Tab.0.center" timestamp="1588079436950">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="297" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1588072724220" />
+    <state width="1750" height="413" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1588079436950" />
     <state width="1750" height="237" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="297" key="GridCell.Tab.0.left" timestamp="1588072724219">
+    <state width="1750" height="413" key="GridCell.Tab.0.left" timestamp="1588079436950">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="297" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1588072724219" />
+    <state width="1750" height="413" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1588079436950" />
     <state width="1750" height="237" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036355" />
-    <state width="1750" height="297" key="GridCell.Tab.0.right" timestamp="1588072724220">
+    <state width="1750" height="413" key="GridCell.Tab.0.right" timestamp="1588079436951">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="297" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1588072724220" />
+    <state width="1750" height="413" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1588079436951" />
     <state width="1750" height="237" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1587385471367">
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1588079413674">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587385471367" />
+    <state width="1750" height="235" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1588079413674" />
     <state width="1750" height="237" key="GridCell.Tab.1.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429567" />
-    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1587385471367">
+    <state width="1750" height="235" key="GridCell.Tab.1.center" timestamp="1588079413674">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587385471367" />
+    <state width="1750" height="235" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1588079413674" />
     <state width="1750" height="237" key="GridCell.Tab.1.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
-    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1587385471367">
+    <state width="1750" height="235" key="GridCell.Tab.1.left" timestamp="1588079413673">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587385471367" />
+    <state width="1750" height="235" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1588079413673" />
     <state width="1750" height="237" key="GridCell.Tab.1.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
-    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1587385471367">
+    <state width="1750" height="235" key="GridCell.Tab.1.right" timestamp="1588079413674">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587385471367" />
+    <state width="1750" height="235" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1588079413674" />
     <state width="1750" height="237" key="GridCell.Tab.1.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
     <state x="427" y="210" key="SettingsEditor" timestamp="1587129519295">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -386,6 +387,14 @@
           <url>file://$PROJECT_DIR$/src/com/codingblocks/greedy/DEFKIN.java</url>
           <line>37</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/codingblocks/recursion/SubSetZeroSum.java</url>
+          <line>36</line>
+          <properties class="com.codingblocks.recursion.SubSetZeroSum.Task" method="ans">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

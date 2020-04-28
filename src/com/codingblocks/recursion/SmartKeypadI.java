@@ -1,8 +1,9 @@
 package com.codingblocks.recursion;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Permutations {
+public class SmartKeypadI {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -15,38 +16,25 @@ public class Permutations {
     }
 
     static class Task {
+        String[] table;
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            String s = in.next();
-            permu("", s);
+            String num = in.next();
+            table = new String[]{" ", ".+@$", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+            ans("", num);
         }
 
-        // lexographic order
-        public void permu(String p, String u){
+        public void ans(String p, String u){
             if (u.isEmpty()){
                 System.out.println(p);
                 return;
             }
-            for (int i = 0; i < u.length(); i++) {
-                char ch = u.charAt(i);
-                String f = u.substring(0, i);
-                String l = u.substring(i+1);
-                permu(p+ch, f+l);
+            int num = Integer.parseInt(u.charAt(0)+ "");
+            String s = table[num];
+            for (int j = 0; j < s.length(); j++) {
+                char ch = s.charAt(j);
+                ans(p+ch, u.substring(1));
             }
-
         }
-
-//        public void permu(String p, String u) {
-//            if (u.isEmpty()){
-//                System.out.println(p);
-//                return;
-//            }
-//            char ch = u.charAt(0);
-//            for (int i = 0; i <= p.length(); i++) {
-//                String f = p.substring(0, i);
-//                String l = p.substring(i);
-//                permu(f + ch + l, u.substring(1));
-//            }
-//        }
     }
 
     static class InputReader {

@@ -1,52 +1,59 @@
 package com.codingblocks.recursion;
+
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Permutations {
+public class SubSetZeroSum {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
         Task solver = new Task();
-//        int t = in.nextInt();
-        solver.solve(1, in, out);
+        int t = in.nextInt();
+        solver.solve(t, in, out);
         out.close();
     }
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            String s = in.next();
-            permu("", s);
+            for (int i = 0; i < testNumber; i++) {
+                int n = in.nextInt();
+                int[] arr = new int[n];
+                for (int j = 0; j < n; j++) {
+                    arr[j] = in.nextInt();
+                }
+                ArrayList<Integer> list = new ArrayList<>();
+                if(ans(list, arr)){
+                    System.out.println("Yes");
+                }else{
+                    System.out.println("No");
+                }
+            }
         }
 
-        // lexographic order
-        public void permu(String p, String u){
-            if (u.isEmpty()){
-                System.out.println(p);
-                return;
+        private boolean ans(ArrayList<Integer> list, int[] arr) {
+            if (sum(list) == 0 && !list.isEmpty()){
+                return true;
             }
-            for (int i = 0; i < u.length(); i++) {
-                char ch = u.charAt(i);
-                String f = u.substring(0, i);
-                String l = u.substring(i+1);
-                permu(p+ch, f+l);
+            if (arr.length == 0){
+                return false;
             }
-
+            ArrayList<Integer> l = new ArrayList<>(list);
+            l.add(arr[0]);
+            return ans(l, Arrays.copyOfRange(arr, 1, arr.length)) || ans(list, Arrays.copyOfRange(arr, 1, arr.length));
         }
 
-//        public void permu(String p, String u) {
-//            if (u.isEmpty()){
-//                System.out.println(p);
-//                return;
-//            }
-//            char ch = u.charAt(0);
-//            for (int i = 0; i <= p.length(); i++) {
-//                String f = p.substring(0, i);
-//                String l = p.substring(i);
-//                permu(f + ch + l, u.substring(1));
-//            }
-//        }
+        private int sum(ArrayList<Integer> list){
+            int s = 0;
+            for (Integer integer : list) {
+                s += integer;
+            }
+            return s;
+        }
+
     }
 
     static class InputReader {
