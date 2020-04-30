@@ -45,7 +45,6 @@ public class LargestAreaHistogram {
         if(max < area) {
             max = area;
         }
-
         return max;
     }
 }
