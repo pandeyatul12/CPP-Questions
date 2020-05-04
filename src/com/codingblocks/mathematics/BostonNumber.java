@@ -27,10 +27,8 @@ public class BostonNumber {
                     sum += i;
                     n = n / i;
                 }
-                i++;
-            }else{
-                i++;
             }
+            i++;
         }
         return sum;
     }

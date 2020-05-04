@@ -31,7 +31,6 @@ public class Rally {
                 }
             }
             int sum = 0;
-            int pos = 0;
             int min_sum = Integer.MAX_VALUE;
             for (int j = min; j <= max; j++) {
                 sum = 0;
