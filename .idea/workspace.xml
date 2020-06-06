@@ -1,615 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a73ae42a-b389-440c-8694-05242ba823e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Arrays2D/SkillUp$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Arrays2D/SkillUp$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Arrays2D/SkillUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Arrays2D/Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Arrays2D/SpiralPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Arrays2D/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Arrays2D/WalkOnTable$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Arrays2D/WalkOnTable$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Arrays2D/WalkOnTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/MagicalStringIT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/MazeRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Microsoft.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/Parenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/XOR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/BuildStairs$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/BuildStairs$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/BuildStairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/CitySavers$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/CitySavers$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/CitySavers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/DisAvg$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/DisAvg$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/DisAvg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/Lower$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/Lower$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/Lower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/MaximalValue$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/MaximalValue$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/MaximalValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/Poll$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/Poll$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/Poll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/adhoc/StraightLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/DivisibleSumPairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/LowerBound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/MaxExcludingCurrent$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/MaxExcludingCurrent$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/MaxExcludingCurrent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/MaxSumNoAdjacent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/MigratingBirdsHR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/RemainderMinimisation$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/RemainderMinimisation$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/RemainderMinimisation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/Reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/ShiftZeros.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/TwoSum$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/TwoSum$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/array/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/NosDivisibleByPrimes$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/NosDivisibleByPrimes$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/NosDivisibleByPrimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/SubSets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/SubsetSums$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/SubsetSums$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/SubsetSums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/Tawas47$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/Tawas47$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/Tawas47.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/UniqueNumbers3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/bitmasking/XORProfitProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/AgggCows$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/AgggCows$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/AgggCows.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/BookAllocation$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/BookAllocation$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/BookAllocation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/PainterPartition$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/PainterPartition$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/PainterPartition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/RotatedBinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/SimpleEnough$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/SimpleEnough$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/SimpleEnough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/TrominoTiling$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/TrominoTiling$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/divideNconquer/TrominoTiling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/dp/LongestPalinSubSeq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/dp/MultiDArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/dp/UglyNo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/fenwick_bit/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/ActivitySelection$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/ActivitySelection$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/ActivitySelection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/ActivitySelection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/BiasedStandings$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/BiasedStandings$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/BiasedStandings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/CurrencyNotes$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/CurrencyNotes$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/CurrencyNotes$TaskCodeJam$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/CurrencyNotes$TaskCodeJam$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/CurrencyNotes$TaskCodeJam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/CurrencyNotes$TaskCodeJam2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/CurrencyNotes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/DEFKIN$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/DEFKIN$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/DEFKIN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/EXPEDI$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/EXPEDI$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/EXPEDI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/LoadBalancer$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/LoadBalancer$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/LoadBalancer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/MaximumCircles$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/MaximumCircles$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/MaximumCircles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/NauuoAndCards$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/NauuoAndCards$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/NauuoAndCards.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/Unification$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/Unification$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/greedy/Unification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/Datatypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/DayOfWeek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/EOF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/NewtonsSqrt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/RandomString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/RoundOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/Split.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/StaticInitialisation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/TimeTaken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/UsingCompareTo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/Whitespaces.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/ABC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/Annotations$Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/Annotations$Derived.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/Annotations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/Custom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/EmptyOK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/Inherited_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/MaxLen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/Meta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/MyAnno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/MyAnnoT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/MyAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/MyRepeatedAnnos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/MySubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/MySuperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/NAseries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/NokiaASeries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/NotZeroLen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/Recommended.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/RepeatAnno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/SmartPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/TypeAnno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/TypeAnnoDemo$SomeClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/TypeAnnoDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/Unique.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/What.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/annotations/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/boxing/Autoboxing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/boxing/TypeWrappers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/Basic$Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/Basic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/Comparing$Day.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/Comparing$Month.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/Comparing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/Example$Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/TrafficSignal$Signal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/TrafficSignal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/enumerations/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/ChainExcDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/Custom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/ExceptionHandling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/MultiCatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/MultipleCatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/NestedTry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/checked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/exceptionHandling/unchecked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/BasicGeneric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/BoundedWildcards.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Box.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Boxes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Coords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/FourD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Gen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Gen2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/GenCons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/GenericBounded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/GenericConstructors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/GenericInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/GenericIntro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/GenericMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/GenericsHierarchies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Genn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Genn2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/HierDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/MinMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/OldBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Stats.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/ThreeD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/TwoD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/VolumeDisplayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/Wildcard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/generics/restrictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/ArrayToString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/BigIntegerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/BufferedReaderClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/BufferedWriterClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/Example.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/FileReaderClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/FileWriterClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/Formating.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/InputStreamReaderClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/InputTillUserEnters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/OutputStreamWriterClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/Read.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/RemoveZero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/Sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/Temp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/TinyEdit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/cpp/InputForCPP1$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/cpp/InputForCPP1$TaskD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/cpp/InputForCPP1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/cpp/InputForCPP2$FastScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/cpp/InputForCPP2$TaskD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/cpp/InputForCPP2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/io/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/javaLibrary/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/javaLibrary/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/javaLibrary/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/javaLibrary/collectionIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/javaLibrary/compareTo_toString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/javaLibrary/javaLang.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/javaLibrary/javaUtil.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/handy/toString_.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/leetcodemay20/FirstBadVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/BadUglyNumbers$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/BadUglyNumbers$TaskD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/BadUglyNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/BirthdayParadox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/BostonNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/CoupleCollector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/DigitsInBase$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/DigitsInBase$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/DigitsInBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/DivisibleSubArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/FastExponentiation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/FiboSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/GCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/GraySimilarCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/GuessTheNumber$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/GuessTheNumber$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/GuessTheNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/LegendresFormula.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/LunlunNumbers$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/LunlunNumbers$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/LunlunNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/Marbles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/Maximums$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/Maximums$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/Maximums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/NKLadder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/PrimeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/Rally$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/Rally$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/Rally.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/RandomQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/SEQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/TaxIncrease$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/TaxIncrease$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/TaxIncrease.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/WrongSubtraction$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/WrongSubtraction$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/mathematics/WrongSubtraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/BannedK$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/BannedK$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/BannedK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/CF1325A$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/CF1325A$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/CF1325A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/EvenOddDivisors$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/EvenOddDivisors$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/EvenOddDivisors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/ExtendedEuclidean$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/ExtendedEuclidean$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/ExtendedEuclidean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/FastModuloExponentiation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/FermatsTheorem$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/FermatsTheorem$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/FermatsTheorem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/LargeFactorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/MMI$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/MMI$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/MMI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/NFactModP$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/NFactModP$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/NFactModP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/PrimeFactors$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/PrimeFactors$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/PrimeFactors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/PrimeFactorsTillN$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/PrimeFactorsTillN$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/PrimeFactorsTillN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/PrimeSieve$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/PrimeSieve$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/PrimeSieve.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumMaxPrime$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumMaxPrime$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumMaxPrime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumOfGcdHard$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumOfGcdHard$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumOfGcdHard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/SumOfGcdHard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/TripletGCD$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/TripletGCD$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/numberTheory/TripletGCD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/Diamond.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/FiboTriangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/HollowDiamond.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/LookNSay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/MirrorDiamond.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/MirrorTriangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/Pascal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/Satiya.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/VCut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/patterns/ZeroTriangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/projectEuler/EvenFibo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/projectEuler/LargestFactor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/projectEuler/Multipleof3N5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/AllPartitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/AllPartitionsPalin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/AllPartitionsPalinMIN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/BalancedParenthesis$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/BalancedParenthesis$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/BalancedParenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/BinarySeq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/CodesOfStrings$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/CodesOfStrings$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/CodesOfStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/LexoAlpha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/LongestPalindromicSubstring$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/LongestPalindromicSubstring$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/LongestPalindromicSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/MagicalString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/NumberOfBinaryStrings$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/NumberOfBinaryStrings$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/NumberOfBinaryStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/Pairing$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/Pairing$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/Pairing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/Permutations$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/Permutations$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/Permutations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/Sagheer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SetOfCharStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SmartKeypadI$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SmartKeypadI$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SmartKeypadI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SplitArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SubSetZeroSum$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SubSetZeroSum$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SubSetZeroSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SubString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/SudokuSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/TilingProblem$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/TilingProblem$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/TilingProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/TowerOfHanoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/TrickyPermutations$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/TrickyPermutations$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/recursion/TrickyPermutations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/segmentTrees/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/sqrtDecomposition/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/stacksNqueues/JumpingFromTowers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/stacksNqueues/LargestAreaHistogram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/NestingDepth$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/NestingDepth$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/NestingDepth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/NumberOfAnagrams$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/NumberOfAnagrams$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/NumberOfAnagrams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/Slimes$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/Slimes$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/Slimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/StrongPalin$InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/StrongPalin$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/strings/StrongPalin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/trees/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/trees/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/trees/BinaryDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/trees/CheckBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/trees/Tree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Questions/com/codingblocks/trees/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/MagicalStringIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/MagicalStringIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/MazeRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/MazeRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/Microsoft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/Microsoft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/Parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/Parenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/XOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/XOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/adhoc/BuildStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/adhoc/BuildStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/adhoc/CitySavers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/adhoc/CitySavers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/adhoc/DisAvg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/adhoc/DisAvg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/adhoc/Lower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/adhoc/Lower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/adhoc/MaximalValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/adhoc/MaximalValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/adhoc/Poll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/adhoc/Poll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/adhoc/StraightLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/adhoc/StraightLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/array/DivisibleSumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/array/DivisibleSumPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/array/LowerBound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/array/LowerBound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/array/MaxExcludingCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/array/MaxExcludingCurrent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/array/MaxSumNoAdjacent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/array/MaxSumNoAdjacent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/array/MigratingBirdsHR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/array/MigratingBirdsHR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/array/RemainderMinimisation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/array/RemainderMinimisation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/array/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/array/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/array/ShiftZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/array/ShiftZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/array/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/array/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/arrays2D/SkillUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/arrays2D/SkillUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/arrays2D/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/arrays2D/Sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/arrays2D/SpiralPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/arrays2D/SpiralPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/arrays2D/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/arrays2D/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/arrays2D/WalkOnTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/arrays2D/WalkOnTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/bitmasking/NosDivisibleByPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/bitmasking/NosDivisibleByPrimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/bitmasking/SubSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/bitmasking/SubSets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/bitmasking/SubsetSums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/bitmasking/SubsetSums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/bitmasking/Tawas47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/bitmasking/Tawas47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/bitmasking/UniqueNumbers3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/bitmasking/UniqueNumbers3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/bitmasking/XORProfitProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/bitmasking/XORProfitProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/divideNconquer/AgggCows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/divideNconquer/AgggCows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/divideNconquer/BookAllocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/divideNconquer/BookAllocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/divideNconquer/PainterPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/divideNconquer/PainterPartition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/divideNconquer/RotatedBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/divideNconquer/RotatedBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/divideNconquer/SimpleEnough.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/divideNconquer/SimpleEnough.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/divideNconquer/TrominoTiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/divideNconquer/TrominoTiling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/dp/LongestPalinSubSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/dp/LongestPalinSubSeq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/dp/MultiDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/dp/MultiDArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/dp/UglyNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/dp/UglyNo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/fenwick_bit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/fenwick_bit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/ActivitySelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/greedy/ActivitySelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/ActivitySelection.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/greedy/ActivitySelection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/BiasedStandings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/greedy/BiasedStandings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/CurrencyNotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/greedy/CurrencyNotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/DEFKIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/greedy/DEFKIN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/EXPEDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/greedy/EXPEDI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/greedy/LoadBalancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/MaximumCircles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/greedy/MaximumCircles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/NauuoAndCards.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/greedy/Unification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/greedy/Unification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/Datatypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/Datatypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/DayOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/DayOfWeek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/EOF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/EOF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/NewtonsSqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/NewtonsSqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/RandomString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/RandomString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/RoundOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/RoundOff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/Split.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/Split.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/StaticInitialisation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/StaticInitialisation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/TimeTaken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/TimeTaken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/UsingCompareTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/UsingCompareTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/Whitespaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/Whitespaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/annotations/Annotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/annotations/Annotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/annotations/Custom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/annotations/Custom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/annotations/Inherited_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/annotations/Inherited_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/annotations/Meta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/annotations/Meta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/annotations/RepeatAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/annotations/RepeatAnno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/annotations/TypeAnnoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/annotations/TypeAnnoDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/annotations/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/annotations/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/boxing/Autoboxing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/boxing/Autoboxing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/boxing/TypeWrappers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/boxing/TypeWrappers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/enumerations/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/enumerations/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/enumerations/Comparing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/enumerations/Comparing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/enumerations/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/enumerations/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/enumerations/TrafficSignal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/enumerations/TrafficSignal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/enumerations/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/enumerations/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/ChainExcDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/ChainExcDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/Custom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/Custom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/ExceptionHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/MultiCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/MultiCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/MultipleCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/MultipleCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/NestedTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/NestedTry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/checked.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/checked.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/exceptionHandling/unchecked.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/exceptionHandling/unchecked.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/BoundedWildcards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/BoundedWildcards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/GenericBounded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/GenericBounded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/GenericConstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/GenericConstructors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/GenericInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/GenericInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/GenericIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/GenericIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/GenericMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/GenericMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/GenericsHierarchies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/GenericsHierarchies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/Wildcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/Wildcard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/generics/restrictions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/generics/restrictions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/ArrayToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/ArrayToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/BigIntegerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/BigIntegerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/BufferedReaderClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/BufferedReaderClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/BufferedWriterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/BufferedWriterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/Example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/Example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/FileReaderClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/FileReaderClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/FileWriterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/FileWriterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/Formating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/Formating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/InputStreamReaderClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/InputStreamReaderClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/InputTillUserEnters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/InputTillUserEnters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/OutputStreamWriterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/OutputStreamWriterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/Read.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/Read.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/RemoveZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/RemoveZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/Sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/Sample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/Temp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/Temp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/TinyEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/TinyEdit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/cpp/InputForCPP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/cpp/InputForCPP1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/cpp/InputForCPP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/cpp/InputForCPP2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/cpp/InputForCPP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/cpp/InputForCPP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/io/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/io/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/javaLibrary/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/javaLibrary/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/javaLibrary/collectionIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/javaLibrary/collectionIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/javaLibrary/compareTo_toString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/javaLibrary/compareTo_toString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/javaLibrary/javaLang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/javaLibrary/javaLang.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/javaLibrary/javaUtil.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/javaLibrary/javaUtil.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/handy/toString_.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/handy/toString_.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/leetcodemay20/FirstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/leetcodemay20/FirstBadVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/BadUglyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/BadUglyNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/BirthdayParadox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/BirthdayParadox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/BostonNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/BostonNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/CoupleCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/CoupleCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/DigitsInBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/DigitsInBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/DivisibleSubArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/DivisibleSubArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/FastExponentiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/FastExponentiation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/FiboSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/FiboSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/GraySimilarCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/GraySimilarCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/GuessTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/LegendresFormula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/LegendresFormula.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/LunlunNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/LunlunNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/Marbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/Marbles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/Maximums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/Maximums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/NKLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/NKLadder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/PrimeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/PrimeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/Rally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/Rally.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/RandomQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/RandomQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/SEQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/SEQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/TaxIncrease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/TaxIncrease.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/mathematics/WrongSubtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/mathematics/WrongSubtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/BannedK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/BannedK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/CF1325A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/CF1325A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/EvenOddDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/EvenOddDivisors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/ExtendedEuclidean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/ExtendedEuclidean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/FastModuloExponentiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/FastModuloExponentiation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/FermatsTheorem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/FermatsTheorem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/LargeFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/LargeFactorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/MMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/MMI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/NFactModP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/NFactModP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/PrimeFactors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/PrimeFactorsTillN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/PrimeFactorsTillN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/PrimeSieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/PrimeSieve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/SumMaxPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/SumMaxPrime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/SumOfGcdHard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/SumOfGcdHard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/SumOfGcdHard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/SumOfGcdHard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/numberTheory/TripletGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/numberTheory/TripletGCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/Diamond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/FiboTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/FiboTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/HollowDiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/HollowDiamond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/LookNSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/LookNSay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/MirrorDiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/MirrorDiamond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/MirrorTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/MirrorTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/Pascal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/Pascal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/Satiya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/Satiya.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/VCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/VCut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/patterns/ZeroTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/patterns/ZeroTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/projectEuler/EvenFibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/projectEuler/EvenFibo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/projectEuler/LargestFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/projectEuler/LargestFactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/projectEuler/Multipleof3N5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/projectEuler/Multipleof3N5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/AllPartitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/AllPartitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/AllPartitionsPalin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/AllPartitionsPalin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/AllPartitionsPalinMIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/AllPartitionsPalinMIN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/BalancedParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/BalancedParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/BinarySeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/BinarySeq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/CodesOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/CodesOfStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/LexoAlpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/LexoAlpha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/MagicalString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/MagicalString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/NumberOfBinaryStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/NumberOfBinaryStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/Pairing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/Pairing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/Sagheer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/Sagheer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/SetOfCharStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/SetOfCharStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/SmartKeypadI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/SmartKeypadI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/SplitArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/SplitArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/SubSetZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/SubSetZeroSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/SubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/SubString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/SudokuSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/TilingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/TilingProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/TowerOfHanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/recursion/TrickyPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/recursion/TrickyPermutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/segmentTrees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/segmentTrees/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/sqrtDecomposition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/sqrtDecomposition/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/stacksNqueues/JumpingFromTowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/stacksNqueues/JumpingFromTowers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/stacksNqueues/LargestAreaHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/stacksNqueues/LargestAreaHistogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/strings/NestingDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/strings/NestingDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/strings/NumberOfAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/strings/NumberOfAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/strings/Slimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/strings/Slimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/strings/StrongPalin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/strings/StrongPalin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/trees/BinaryDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/trees/BinaryDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/trees/CheckBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kunal/trees/CheckBST.java" afterDir="false" />
-    </list>
+    <list default="true" id="a73ae42a-b389-440c-8694-05242ba823e6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -680,7 +72,7 @@
       <recent name="com.codingblocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoStacks">
+  <component name="RunManager" selected="Application.LargestAreaHistogram">
     <configuration name="AllPartitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kunal.recursion.AllPartitions" />
       <module name="Questions" />
@@ -707,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kunal.Main" />
+    <configuration name="LargestAreaHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kunal.stacksNqueues.LargestAreaHistogram" />
       <module name="Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kunal.*" />
+          <option name="PATTERN" value="com.kunal.stacksNqueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -747,19 +139,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.AllPartitions" />
       <item itemvalue="Application.PermutationInString" />
       <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.TwoStacks" />
+      <item itemvalue="Application.LargestAreaHistogram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestAreaHistogram" />
         <item itemvalue="Application.TwoStacks" />
         <item itemvalue="Application.KthSmallest" />
         <item itemvalue="Application.PermutationInString" />
         <item itemvalue="Application.AllPartitions" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -936,28 +328,28 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="258" y="170" key="CommitChangelistDialog2/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1584953436366" />
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1590308636089">
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1591432018429">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1590308636089" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1591432018429" />
     <state width="1750" height="237" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429566" />
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1590308636088">
+    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1591432018428">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1590308636088" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1591432018428" />
     <state width="1750" height="237" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.center/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
-    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1590308636088">
+    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1591432018428">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1590308636088" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1591432018428" />
     <state width="1750" height="237" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.left/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036355" />
-    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1590308636088">
+    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1591432018429">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1590308636088" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1591432018429" />
     <state width="1750" height="237" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1586543429565" />
     <state width="1878" height="295" key="GridCell.Tab.0.right/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1584808036356" />
     <state width="1750" height="235" key="GridCell.Tab.1.bottom" timestamp="1589797704297">
@@ -984,11 +376,6 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="427" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1589526025683" />
-    <state x="2250" y="-199" key="SettingsEditor/1792.-379.1920.1057/0.23.1792.1097@1792.-379.1920.1057" timestamp="1582281153483" />
-    <state x="495" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582267119374">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="495" y="472" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1792.1097@0.23.1792.1097" timestamp="1582267119374" />
     <state x="634" y="339" key="extract.method.dialog" timestamp="1586000982194">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -1048,7 +435,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/kunal/recursion/SubSetZeroSum.java</url>
           <line>36</line>
-          <properties class="com.kunal.recursion.SubSetZeroSum.Task" method="ans">
+          <properties class="com.kunal.recursion.SubSetZeroSum.Task">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="18" />
@@ -1056,7 +443,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/kunal/stacksNqueues/LargestAreaHistogram.java</url>
           <line>36</line>
-          <properties class="com.kunal.stacksNqueues.LargestAreaHistogram" method="getMax">
+          <properties class="com.kunal.stacksNqueues.LargestAreaHistogram">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="19" />
