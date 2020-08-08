@@ -19,7 +19,6 @@ public class NQueens {
 
     private static int nqueens(boolean[][] board, int row) {
         if (row == board.length){
-
             display(board);
             return 1;
         }
@@ -78,11 +77,11 @@ public class NQueens {
 
     public static void display(boolean[][] board) {
 
-        for (int i = 0; i < board.length; i++) {
+        for (boolean[] booleans : board) {
 
-            for (int j = 0; j < board[i].length; j++) {
+            for (boolean aBoolean : booleans) {
 
-                if(board[i][j]){
+                if (aBoolean) {
                     System.out.print("Q ");
                 } else
                     System.out.print("X ");
