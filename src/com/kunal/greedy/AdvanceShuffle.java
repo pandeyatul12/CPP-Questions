@@ -1,12 +1,10 @@
 package com.kunal.greedy;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.StringTokenizer;
+import java.util.*;
 
-public class RectangleSquare2 {
+// https://leetcode.com/problems/advantage-shuffle/
+public class AdvanceShuffle {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -20,56 +18,44 @@ public class RectangleSquare2 {
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int n = in.nextInt();
-            int[] planks = new int[n];
-            for (int i = 0; i < n; i++) {
-                planks[i] = in.nextInt();
-            }
-            Map<Integer, Integer> map = new HashMap<>();
-            for (int i = 0; i < n; i++) {
-                int len = planks[i];
-                map.put(len, map.getOrDefault(len, 0) + 1);
-            }
+            int[] A = {2,7,11,15};
+            int[] B = {1,10,4,11};
+            out.println(Arrays.toString(advantageCount(A, B)));
+        }
+        public int[] advantageCount(int[] A, int[] B) {
+            int[] sortedA = A.clone();
+            Arrays.sort(sortedA);
+            int[] sortedB = B.clone();
+            Arrays.sort(sortedB);
 
-            int q = in.nextInt();
-            int count = 0;
-            for (Integer key : map.keySet()){
-                count += map.get(key) / 2;
-            }
+            // assigned[b] = list of a that are assigned to beat b
+            Map<Integer, Deque<Integer>> assigned = new HashMap<>();
+            for (int b: B) assigned.put(b, new LinkedList<>());
 
-            for (int i = 0; i < q; i++) {
-                String op = in.nextLine();
-                char ch = op.split(" ")[0].charAt(0);
-                int len = Integer.parseInt(op.split(" ")[1]);
-                if (map.containsKey(len)){
-                    count -= map.get(len) / 2;
-                }
-                if (ch == '-') {
-                    map.put(len, map.getOrDefault(len, 0) - 1);
+            // remaining = list of a that are not assigned to any b
+            Deque<Integer> remaining = new LinkedList<>();
+
+            // populate (assigned, remaining) appropriately
+            // sortedB[j] is always the smallest unassigned element in B
+            int j = 0;
+            for (int a: sortedA) {
+                if (a > sortedB[j]) {
+                    assigned.get(sortedB[j++]).add(a);
                 } else {
-                    map.put(len, map.getOrDefault(len, 0) + 1);
-                }
-//                out.println(map);
-                count += map.get(len) / 2;
-
-                int found = 0;
-                for (Integer val : map.values()) {
-                    if (val >= 4) {
-                        found = 1;
-                        break;
-                    }
-                }
-                if (found == 0){
-                    out.println("NO");
-                    continue;
-                }
-
-                if ((count / 2) >= 2) {
-                    out.println("YES");
-                } else {
-                    out.println("NO");
+                    remaining.add(a);
                 }
             }
+
+            // Reconstruct the answer from annotations (assigned, remaining)
+            int[] ans = new int[B.length];
+            for (int i = 0; i < B.length; ++i) {
+                // if there is some a assigned to b...
+                if (assigned.get(B[i]).size() > 0)
+                    ans[i] = assigned.get(B[i]).pop();
+                else
+                    ans[i] = remaining.pop();
+            }
+            return ans;
         }
     }
 

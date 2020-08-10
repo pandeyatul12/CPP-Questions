@@ -2,7 +2,7 @@ package com.kunal.array;
 
 public class LowerBound {
     public static void main(String[] args) {
-        int[] arr = { 10, 20, 30, 40, 50 };
+        int[] arr = { 2, 7, 11, 15 };
 //        int low = 10;
 //        int high = 40;
 //        int l1 = lowerBound(arr, low);
@@ -10,13 +10,13 @@ public class LowerBound {
 //        System.out.println(l2 - l1);
 
         int n = 32;
-        System.out.println(arr[lowerBound(arr, n)]);
+        System.out.println(arr[lowerBound(arr, 11)]);
     }
     public static int lowerBound(int[] array, int value) {
         int low = 0;
         int high = array.length;
         while (low < high) {
-            final int mid = (low + high) / 2;
+            int mid = (low + high) / 2;
             //checks if the value is less than middle element of the array
             if (value <= array[mid]) {
                 high = mid;
