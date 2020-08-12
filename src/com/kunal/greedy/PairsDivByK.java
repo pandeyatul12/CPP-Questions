@@ -1,10 +1,10 @@
-package com.kunal.array;
+package com.kunal.greedy;
 
 import java.io.*;
+import java.util.HashMap;
 import java.util.StringTokenizer;
-
-public class MaxExcludingCurrent {
-    // https://atcoder.jp/contests/abc134/tasks/abc134_c
+// https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/
+public class PairsDivByK {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -14,29 +14,44 @@ public class MaxExcludingCurrent {
 //        int t = in.nextInt();
         solver.solve(1, in, out);
         out.close();
-
     }
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int n = in.nextInt();
-            int[] arr = new int[n];
-            for (int i = 0; i < n; i++) {
-                arr[i] = in.nextInt();
+
+        }
+        public boolean canArrange(int[] arr, int k) {
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] %= k;
             }
-            int[] right = new int[n];
-            int[] left = new int[n];
-            right[n-1] = 0;
-            left[0] = 0;
-            for (int i = n-2; i >= 0; i--) {
-                right[i] = Math.max(arr[i+1], right[i+1]);
+            HashMap<Integer, Integer> map = new HashMap<>();
+            for (int num : arr) {
+                int toFind = k - num;
+                // search toFind or -num
+
+                if (map.containsKey(-num)) {
+                    map.put(-num, map.get(-num) - 1);
+                    if (map.get(-num) == 0){
+                        map.remove(-num);
+                    }
+                }
+                else if (map.containsKey(toFind)) {
+                    map.put(toFind, map.get(toFind) - 1);
+                    if (map.get(toFind) == 0){
+                        map.remove(toFind);
+                    }
+                }
+                else {
+                    map.put(num, map.getOrDefault(num, 0) + 1);
+                }
             }
-            for (int i = 1; i < n; i++) {
-                left[i] = Math.max(arr[i-1], left[i-1]);
+
+            for(int value : map.values()){
+                if (value != 0) {
+                    return false;
+                }
             }
-            for (int i = 0; i < n; i++) {
-                out.println(Math.max(right[i], left[i]));
-            }
+            return true;
         }
     }
 

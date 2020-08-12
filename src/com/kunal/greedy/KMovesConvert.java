@@ -1,4 +1,4 @@
-package com.kunal.strings;
+package com.kunal.greedy;
 
 import java.io.*;
 import java.util.Arrays;
@@ -28,53 +28,16 @@ public class KMovesConvert {
         }
 
         private boolean canConvertString(String s, String t, int k) {
-
-            if (s.length() != t.length()){
+            if (s.length() != t.length()) {
                 return false;
             }
-
-            int[] ss = new int[s.length()];
-            int[] tt = new int[t.length()];
-
+            int[] counts = new int[26];
             for (int i = 0; i < s.length(); i++) {
-                // ss[i] is numeric val of that alphabet
-                ss[i] = s.charAt(i) - 'a';
-            }
-            for (int i = 0; i < t.length(); i++) {
-                // ss[i] is numeric val of that alphabet
-                tt[i] = t.charAt(i) - 'a';
-            }
-
-            System.out.println(Arrays.toString(ss));
-            System.out.println(Arrays.toString(tt));
-            Set<Integer> checked = new HashSet<>();
-            int check = 0;
-            for (int i = 0; i < ss.length; i++) {
-                int num1 = ss[i];
-                int num2 = tt[i];
-                if (num1 != num2){
-                    int minRequired = Math.abs(num1 - num2);
-                    if (minRequired > k){
-                        return false;
-                    }
-                    if (!checked.contains(minRequired)){
-                        checked.add(minRequired);
-                    }else{
-                        // check +26
-                        int newReq = minRequired;
-                        while (true){
-                            newReq = newReq + 25;
-                            // check if this is already taken
-                            if (newReq > k){
-                                return false;
-                            }
-                            if (!checked.contains(newReq)){
-                                checked.add(newReq);
-                                break;
-                            }
-                        }
-                    }
+                int diff = (t.charAt(i) - s.charAt(i) + 26) % 26;
+                if (diff > 0 && diff + counts[diff] * 26 > k){
+                    return false;
                 }
+                counts[diff]++;
             }
             return true;
         }

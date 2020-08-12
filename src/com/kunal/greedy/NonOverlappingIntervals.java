@@ -1,10 +1,11 @@
-package com.kunal.array;
+package com.kunal.greedy;
 
 import java.io.*;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.StringTokenizer;
-
-public class MaxExcludingCurrent {
-    // https://atcoder.jp/contests/abc134/tasks/abc134_c
+// https://leetcode.com/problems/non-overlapping-intervals/
+public class NonOverlappingIntervals {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -14,29 +15,33 @@ public class MaxExcludingCurrent {
 //        int t = in.nextInt();
         solver.solve(1, in, out);
         out.close();
-
     }
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int n = in.nextInt();
-            int[] arr = new int[n];
-            for (int i = 0; i < n; i++) {
-                arr[i] = in.nextInt();
+            int[][] arr = {};
+            out.println(eraseOverlapIntervals(arr));
+        }
+        public int eraseOverlapIntervals(int[][] intervals) {
+            int count = 0;
+            if(intervals.length == 0){
+                return count;
             }
-            int[] right = new int[n];
-            int[] left = new int[n];
-            right[n-1] = 0;
-            left[0] = 0;
-            for (int i = n-2; i >= 0; i--) {
-                right[i] = Math.max(arr[i+1], right[i+1]);
+            // Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
+            Arrays.sort(intervals, Comparator.comparingInt(o -> o[1]));
+            int checkE = intervals[0][1];
+            for (int i = 1; i < intervals.length; i++) {
+                int start = intervals[i][0];
+                int end = intervals[i][1];
+
+                if (start < checkE) {
+                    // remove this
+                    count++;
+                }else{
+                    checkE = end;
+                }
             }
-            for (int i = 1; i < n; i++) {
-                left[i] = Math.max(arr[i-1], left[i-1]);
-            }
-            for (int i = 0; i < n; i++) {
-                out.println(Math.max(right[i], left[i]));
-            }
+            return count;
         }
     }
 

@@ -1,10 +1,11 @@
-package com.kunal.array;
+package com.kunal.slidingWindow;
 
 import java.io.*;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
-
-public class MaxExcludingCurrent {
-    // https://atcoder.jp/contests/abc134/tasks/abc134_c
+// https://leetcode.com/problems/longest-repeating-character-replacement/
+public class LongestSubStringWithSameLettersReplacement {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -14,29 +15,33 @@ public class MaxExcludingCurrent {
 //        int t = in.nextInt();
         solver.solve(1, in, out);
         out.close();
-
     }
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int n = in.nextInt();
-            int[] arr = new int[n];
-            for (int i = 0; i < n; i++) {
-                arr[i] = in.nextInt();
+
+        }
+        public int characterReplacement(String s, int k) {
+            int start = 0;
+            int max = 0;
+            int maxLen = 0;
+            Map<Character, Integer> map = new HashMap<>();
+            for (int end = 0; end < s.length(); end++) {
+                char ch = s.charAt(end);
+                map.put(ch, map.getOrDefault(ch, 0) + 1);
+                maxLen = Math.max(maxLen, map.get(ch));
+
+                // condition violated
+                if (end-start+1 - maxLen > k){
+                    char first = s.charAt(start);
+                    map.put(first, map.get(first) - 1);
+                    start++;
+                }
+                // NOTE: this works because, the subarray size all the time will be = max so far if the condition is
+                // violated (as we are doing start++)
+                max = Math.max(max, end-start+1);
             }
-            int[] right = new int[n];
-            int[] left = new int[n];
-            right[n-1] = 0;
-            left[0] = 0;
-            for (int i = n-2; i >= 0; i--) {
-                right[i] = Math.max(arr[i+1], right[i+1]);
-            }
-            for (int i = 1; i < n; i++) {
-                left[i] = Math.max(arr[i-1], left[i-1]);
-            }
-            for (int i = 0; i < n; i++) {
-                out.println(Math.max(right[i], left[i]));
-            }
+            return max;
         }
     }
 

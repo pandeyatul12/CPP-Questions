@@ -1,10 +1,9 @@
-package com.kunal.array;
+package com.kunal.slidingWindow;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class MaxExcludingCurrent {
-    // https://atcoder.jp/contests/abc134/tasks/abc134_c
+public class MaxSumSubArrPositive {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -14,29 +13,28 @@ public class MaxExcludingCurrent {
 //        int t = in.nextInt();
         solver.solve(1, in, out);
         out.close();
-
     }
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int n = in.nextInt();
-            int[] arr = new int[n];
-            for (int i = 0; i < n; i++) {
-                arr[i] = in.nextInt();
+
+        }
+        public int maxSum(int[] arr, int k){
+            int start = 0;
+            int sum = 0;
+            int max = 0;
+            for (int end = 0; end < arr.length; end++) {
+                sum += arr[end];
+
+                if (end >= k-1){
+                    if (sum > max){
+                        max = sum;
+                    }
+                    sum -= arr[start];
+                    start++;
+                }
             }
-            int[] right = new int[n];
-            int[] left = new int[n];
-            right[n-1] = 0;
-            left[0] = 0;
-            for (int i = n-2; i >= 0; i--) {
-                right[i] = Math.max(arr[i+1], right[i+1]);
-            }
-            for (int i = 1; i < n; i++) {
-                left[i] = Math.max(arr[i-1], left[i-1]);
-            }
-            for (int i = 0; i < n; i++) {
-                out.println(Math.max(right[i], left[i]));
-            }
+            return max;
         }
     }
 

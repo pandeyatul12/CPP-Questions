@@ -1,10 +1,12 @@
-package com.kunal.array;
+package com.kunal.slidingWindow;
 
 import java.io.*;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.StringTokenizer;
 
-public class MaxExcludingCurrent {
-    // https://atcoder.jp/contests/abc134/tasks/abc134_c
+public class NoRepeatSubstring {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -14,29 +16,42 @@ public class MaxExcludingCurrent {
 //        int t = in.nextInt();
         solver.solve(1, in, out);
         out.close();
-
     }
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int n = in.nextInt();
-            int[] arr = new int[n];
-            for (int i = 0; i < n; i++) {
-                arr[i] = in.nextInt();
+            System.out.println("Length of the longest substring: " + findLength2("aabccbb"));
+
+        }
+        public static int findLength(String str) {
+            int max = 0;
+            int start = 0;
+            Set<Character> set = new HashSet<>();
+            for (int end = 0; end < str.length(); end++) {
+                char ch = str.charAt(end);
+                while(set.contains(ch)){
+                    set.remove(str.charAt(start));
+                    start++;
+                }
+                set.add(ch);
+                max = Math.max(max, end-start+1);
             }
-            int[] right = new int[n];
-            int[] left = new int[n];
-            right[n-1] = 0;
-            left[0] = 0;
-            for (int i = n-2; i >= 0; i--) {
-                right[i] = Math.max(arr[i+1], right[i+1]);
+            return max;
+        }
+        public static int findLength2(String str) {
+            int max = 0;
+            int start = 0;
+            int[] arr = new int[26];
+            Arrays.fill(arr, -1);
+            for (int end = 0; end < str.length(); end++) {
+                int ch = str.charAt(end) - 'a';
+                if(arr[ch] != -1){
+                    start = Math.max(start, arr[ch] + 1);
+                }
+                arr[ch] = end;
+                max = Math.max(max, end-start+1);
             }
-            for (int i = 1; i < n; i++) {
-                left[i] = Math.max(arr[i-1], left[i-1]);
-            }
-            for (int i = 0; i < n; i++) {
-                out.println(Math.max(right[i], left[i]));
-            }
+            return max;
         }
     }
 
