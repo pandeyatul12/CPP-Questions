@@ -1,11 +1,10 @@
 package com.kunal.slidingWindow;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.StringTokenizer;
+import java.util.*;
 
-public class LongestSubstringKDistinct {
+// https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+public class WordConcatHard {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -21,24 +20,38 @@ public class LongestSubstringKDistinct {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 
         }
-        public static int findLength(String str, int k) {
-            int start = 0;
-            int max = -1;
-            Map<Character, Integer> freq = new HashMap<>();
-            for (int end = 0; end < str.length(); end++) {
-                char ch = str.charAt(end);
-                freq.put(ch, freq.getOrDefault(ch, 0) + 1);
-                while (freq.size() > k){ // or == k + 1
-                    freq.put(str.charAt(start), freq.get(str.charAt(start)) - 1);
-                    if (freq.get(str.charAt(start)) == 0){
-                        // remove
-                        freq.remove(str.charAt(start));
-                    }
-                    start++;
-                }
-                max = Math.max(max, end-start+1);
+        public List<Integer> findSubstring(String s, String[] words) {
+            List<Integer> list = new ArrayList<>();
+            if(s.length() == 0){
+                return list;
             }
-            return max;
+            if(words.length == 0){
+                return list;
+            }
+            Map<String, Integer> map = new HashMap<>();
+            int wordCount = words.length;
+            int wordLength = words[0].length();
+            for (String str : words){
+                map.put(str, map.getOrDefault(str, 0) + 1);
+            }
+            for (int i = 0; i <= s.length() - wordCount * wordLength; i++) {
+                Map<String, Integer> seen = new HashMap<>();
+                for (int j = 0; j < wordCount; j++) {
+                    int start = i + j * wordLength;
+                    String check = s.substring(start, start + wordLength);
+                    if (!map.containsKey(check)){
+                        break;
+                    }
+                    seen.put(check, seen.getOrDefault(check, 0) + 1);
+                    if (seen.get(check) > map.get(check)){
+                        break;
+                    }
+                    if (j+1 == wordCount){
+                        list.add(i);
+                    }
+                }
+            }
+            return list;
         }
     }
 

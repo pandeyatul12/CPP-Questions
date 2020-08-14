@@ -1,44 +1,55 @@
-package com.kunal.slidingWindow;
+package com.kunal.strings;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.StringTokenizer;
-
-public class LongestSubstringKDistinct {
+// https://codeforces.com/contest/1398/problem/B
+public class SubStrRemoval {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
         Task solver = new Task();
-//        int t = in.nextInt();
-        solver.solve(1, in, out);
+        int t = in.nextInt();
+        solver.solve(t, in, out);
         out.close();
     }
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-
-        }
-        public static int findLength(String str, int k) {
-            int start = 0;
-            int max = -1;
-            Map<Character, Integer> freq = new HashMap<>();
-            for (int end = 0; end < str.length(); end++) {
-                char ch = str.charAt(end);
-                freq.put(ch, freq.getOrDefault(ch, 0) + 1);
-                while (freq.size() > k){ // or == k + 1
-                    freq.put(str.charAt(start), freq.get(str.charAt(start)) - 1);
-                    if (freq.get(str.charAt(start)) == 0){
-                        // remove
-                        freq.remove(str.charAt(start));
+            for (int t = 0; t < testNumber; t++) {
+                String str = in.nextLine();
+                String strPattern = "^0+(?!$)";
+                str = str.replaceAll(strPattern, "");
+                ArrayList<Integer> list = new ArrayList<>();
+                int ones = 0;
+                int check = 0;
+                for (int i = 0; i < str.length(); i++) {
+                    char num = str.charAt(i);
+                    if (num == '0'){
+                        if (check == 0){
+                            list.add(ones);
+                            ones = 0;
+                            check = 1;
+                        }
+                    }else{
+                        ones++;
+                        check = 0;
                     }
-                    start++;
                 }
-                max = Math.max(max, end-start+1);
+                if (ones > 0){
+                    list.add(ones);
+                }
+                list.sort((o1, o2) -> o2 - o1);
+
+                int sum = 0;
+                for (int i = 0; i < list.size(); i+=2) {
+                    sum += list.get(i);
+                }
+                out.println(sum);
             }
-            return max;
         }
     }
 

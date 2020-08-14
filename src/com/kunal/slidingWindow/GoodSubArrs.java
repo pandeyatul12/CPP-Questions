@@ -1,44 +1,45 @@
 package com.kunal.slidingWindow;
 
 import java.io.*;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-public class LongestSubstringKDistinct {
+public class GoodSubArrs {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
         Task solver = new Task();
-//        int t = in.nextInt();
-        solver.solve(1, in, out);
+        int t = in.nextInt();
+        solver.solve(t, in, out);
         out.close();
     }
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-
-        }
-        public static int findLength(String str, int k) {
-            int start = 0;
-            int max = -1;
-            Map<Character, Integer> freq = new HashMap<>();
-            for (int end = 0; end < str.length(); end++) {
-                char ch = str.charAt(end);
-                freq.put(ch, freq.getOrDefault(ch, 0) + 1);
-                while (freq.size() > k){ // or == k + 1
-                    freq.put(str.charAt(start), freq.get(str.charAt(start)) - 1);
-                    if (freq.get(str.charAt(start)) == 0){
-                        // remove
-                        freq.remove(str.charAt(start));
-                    }
-                    start++;
+            for (int t = 0; t < testNumber; t++) {
+                int n = in.nextInt();
+                String nums = in.next();
+                int[] arr = new int[n];
+                for (int i = 0; i < arr.length; i++) {
+                    arr[i] = nums.charAt(i) - '0';
                 }
-                max = Math.max(max, end-start+1);
+                int i = 0;
+                long count = 0;
+                int sum = 0;
+                Map<Integer, Integer> map = new HashMap<>();
+                map.put(0, 1);
+                for(int num : arr){
+                    i++;
+                    sum += num;
+                    count += map.getOrDefault(sum-i, 0);
+                    map.put(sum-i, map.getOrDefault(sum-i, 0) + 1);
+                }
+                out.println(count);
             }
-            return max;
         }
     }
 

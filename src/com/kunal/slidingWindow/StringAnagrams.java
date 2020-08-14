@@ -1,11 +1,9 @@
 package com.kunal.slidingWindow;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.StringTokenizer;
+import java.util.*;
 
-public class LongestSubstringKDistinct {
+public class StringAnagrams {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -21,24 +19,37 @@ public class LongestSubstringKDistinct {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 
         }
-        public static int findLength(String str, int k) {
+        public List<Integer> findAnagrams(String s, String p) {
+            List<Integer> list = new ArrayList<>();
+            Map<Character, Integer> map = new HashMap<>();
+            for(char ch : p.toCharArray()){
+                map.put(ch, map.getOrDefault(ch, 0) + 1);
+            }
             int start = 0;
-            int max = -1;
-            Map<Character, Integer> freq = new HashMap<>();
-            for (int end = 0; end < str.length(); end++) {
-                char ch = str.charAt(end);
-                freq.put(ch, freq.getOrDefault(ch, 0) + 1);
-                while (freq.size() > k){ // or == k + 1
-                    freq.put(str.charAt(start), freq.get(str.charAt(start)) - 1);
-                    if (freq.get(str.charAt(start)) == 0){
-                        // remove
-                        freq.remove(str.charAt(start));
+            int target = 0;
+            for (int end = 0; end < s.length(); end++) {
+                char ch = s.charAt(end);
+                if (map.containsKey(ch)){
+                    map.put(ch, map.get(ch) - 1);
+                    if (map.get(ch) == 0){
+                        target++;
+                    }
+                }
+                if (target == map.size()){
+                    list.add(start);
+                }
+                if (end >= p.length() - 1){
+                    char first = s.charAt(start);
+                    if (map.containsKey(first)){
+                        if (map.get(first) == 0){
+                            target--;
+                        }
+                        map.put(first, map.get(first) + 1);
                     }
                     start++;
                 }
-                max = Math.max(max, end-start+1);
             }
-            return max;
+            return list;
         }
     }
 

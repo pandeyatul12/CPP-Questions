@@ -39,6 +39,7 @@ public class LongestSubStringWithSameLettersReplacement {
                 }
                 // NOTE: this works because, the subarray size all the time will be = max so far if the condition is
                 // violated (as we are doing start++)
+                // at this point, the condition will never be violated due to above check
                 max = Math.max(max, end-start+1);
             }
             return max;

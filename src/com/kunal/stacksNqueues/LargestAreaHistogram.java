@@ -22,6 +22,8 @@ public class LargestAreaHistogram {
         stack.push(0);
 
         for (int i = 1; i < arr.length; i++) {
+            // this works because at every i, in the first item of stack we
+            // will have the smallest item till i
             while(!stack.isEmpty() && arr[i] < arr[stack.peek()]) {
                 max = getMax(arr, stack, max, i);
             }

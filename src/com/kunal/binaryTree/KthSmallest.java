@@ -1,4 +1,4 @@
-package com.kunal.bst;
+package com.kunal.binaryTree;
 
 class Node {
     int data;
