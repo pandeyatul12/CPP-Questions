@@ -21,7 +21,6 @@ public class Tree {
     public void populate(Scanner scanner){
         int value = scanner.nextInt();
         root = new Node(value);
-
         populate(scanner, root);
     }
     private void populate(Scanner scanner, Node node) {

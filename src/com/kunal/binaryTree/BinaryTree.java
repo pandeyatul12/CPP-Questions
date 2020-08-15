@@ -4,17 +4,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class BinaryTree {
-
     private Node root;
-
-    public BinaryTree(){
-
-    }
-
     private static class Node{
-
         private int value;
-
         private Node left;
         private Node right;
 
@@ -22,6 +14,7 @@ public class BinaryTree {
             this.value = value;
         }
     }
+
     public void display(){
         display(root, "");
     }
@@ -29,7 +22,8 @@ public class BinaryTree {
         if(node == null){
             return;
         }
-        Main.out.println(indent + node.value);
+
+        System.out.println(indent + node.value);
 
         display(node.left, indent + "\t");
         display(node.right, indent + "\t");
@@ -217,9 +211,7 @@ public class BinaryTree {
         Node t = node.left;
         node.left = node.right;
         node.right = t;
-
         mirror(node.left);
-
     }
 
     public static BinaryTree treeUsingPreAndIn(int[] pre, int[] in){
@@ -278,5 +270,4 @@ public class BinaryTree {
 
         return node;
     }
-
 }
