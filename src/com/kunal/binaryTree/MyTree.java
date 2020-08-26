@@ -18,15 +18,6 @@ public class MyTree {
     }
 
     static class Task {
-        public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            // main code here
-            BinTree tree = new BinTree();
-            int n = in.nextInt();
-            for (int i = 0; i < n; i++) {
-                tree.insert(in.nextInt());
-            }
-            tree.display();
-        }
 
         // tree code here
         public class BinTree{
@@ -73,8 +64,105 @@ public class MyTree {
                 queue.add(newNode);
                 return root;
             }
+
+            public void levelOrderTraversal(){
+                Queue<Node> queue = new LinkedList<>();
+                queue.add(root);
+                while (!queue.isEmpty()){
+                    int len = queue.size();
+                    for (int i = 0; i < len; i++) {
+                        Node removed = queue.remove();
+                        System.out.print(removed.value + " ");
+                        if (removed.left != null) queue.add(removed.left);
+                        if (removed.right != null) queue.add(removed.right);
+                    }
+                    System.out.println();
+                }
+            }
+
+            public int size(){
+                return size(root);
+            }
+            private int size(Node node){
+                if (node == null){
+                    return 0;
+                }
+                return 1 + size(node.left) + size(node.right);
+            }
+            public int largest(){
+                return largest(root);
+            }
+            private int largest(Node node){
+                if (node == null){
+                    return Integer.MIN_VALUE;
+                }
+                int left = largest(node.left);
+                int right = largest(node.right);
+                return Math.max(node.value, Math.max(left, right));
+            }
+
+            public void printLevel(int depth){
+                printLevel(root, depth);
+            }
+            private void printLevel(Node node, int depth) {
+                if(node == null){
+                    return;
+                }
+                if(depth >= 0){
+                    printLevel(node.left, depth - 1);
+                    if(depth == 0){
+                        System.out.println(node.value);
+                    }
+                    printLevel(node.right, depth - 1);
+                }
+            }
+
+            public int height(){
+                return height(root);
+            }
+            private int height(Node node) {
+                if(node == null){
+                    return -1;
+                }
+                return 1 + Math.max(height(node.left), height(node.right));
+
+            }
+
+            public int diameter(){
+                if(root == null){
+                    return 0;
+                }
+                return 1 + height(root.left) + height(root.right);
+            }
+
+            public boolean find(int value){
+                return find(root, value);
+            }
+            private boolean find(Node node, int value) {
+                if(node == null){
+                    return false;
+                }
+                if(node.value == value){
+                    return true;
+                }
+                return find(node.left, value) || find(node.right, value);
+            }
+
         }
 
+        // main code here
+        public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
+            BinTree tree = new BinTree();
+            // 7 4 2 7 1 3 6 9
+            int n = in.nextInt();
+            for (int i = 0; i < n; i++) {
+                tree.insert(in.nextInt());
+            }
+//            tree.display();
+            tree.levelOrderTraversal();
+//            out.println(tree.size());
+//            out.println(tree.largest());
+        }
     }
 
     static class InputReader {

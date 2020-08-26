@@ -1,11 +1,9 @@
-package com.kunal.slidingWindow;
+package com.kunal.binaryTree;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.StringTokenizer;
-
-public class LongestSubArrWith1sAfterReplacement {
+// https://leetcode.com/problems/split-array-largest-sum/
+public class SplitArrMaxSum {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -21,23 +19,39 @@ public class LongestSubArrWith1sAfterReplacement {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 
         }
-        public static int findLength(int[] arr, int k) {
-            int start = 0;
+        public int splitArray(int[] nums, int m) {
             int max = 0;
-            int ones = 0;
-            for (int end = 0; end < arr.length; end++) {
-                if (arr[end] == 1){
-                    ones++;
-                }
-                if (end-start+1 - ones > k){
-                    if (arr[start] == 1){
-                        ones--;
-                    }
-                    start++;
-                }
-                max = Math.max(max, end-start+1);
+            int sum = 0;
+            for(int num : nums){
+                max = Math.max(max, num);
+                sum += num;
             }
-            return max;
+            int low = max;
+            int high = sum;
+            while (low < high){
+                int mid = low + (high - low)/2;
+                int pieces = split(nums, mid);
+                if (pieces > m){
+                    low = mid + 1;
+                }else{
+                    high = mid;
+                }
+            }
+            return low;
+        }
+
+        private int split(int[] nums, int sum) {
+            int s = 0;
+            int count = 1;
+            for(int num : nums){
+                if (s + num > sum){
+                    s = num;
+                    count++;
+                }else{
+                    s += num;
+                }
+            }
+            return count;
         }
     }
 

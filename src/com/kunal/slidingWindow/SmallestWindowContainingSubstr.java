@@ -55,7 +55,8 @@ public class SmallestWindowContainingSubstr {
                     windowStart++;
                 }
             }
-            return str.substring(subStrStart, subStrStart + minLength);
+            return minLength > str.length() ? "" : str.substring(subStrStart, subStrStart + minLength);
+
         }
 
         public String minWindow2(String s, String t){
@@ -65,7 +66,7 @@ public class SmallestWindowContainingSubstr {
             }
             int windowStart = 0;
             int subArrStart = 0;
-            int min = s.length();
+            int min = s.length()+1;
             int found = 0;
             for (int windowEnd = 0; windowEnd < s.length(); windowEnd++) {
                 char ch = s.charAt(windowEnd);
@@ -89,8 +90,8 @@ public class SmallestWindowContainingSubstr {
                         if (map.get(first) == 0){
                             found--;
                         }
+                        map.put(first, map.get(first) + 1);
                     }
-                    map.put(first, map.get(first) + 1);
                     windowStart++;
                 }
             }

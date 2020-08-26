@@ -49,7 +49,7 @@ public class PermutationInString {
             if (found == map.size()){
                 return true;
             }
-            if (end >= s1.length()-1){
+            if (end >= s1.length()){
                 // shrink by 1
                 char first = s2.charAt(start);
                 if (map.containsKey(first)){

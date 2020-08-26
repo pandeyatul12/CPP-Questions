@@ -1,43 +1,30 @@
-package com.kunal.slidingWindow;
+package com.kunal.strings;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
 import java.util.StringTokenizer;
-
-public class LongestSubArrWith1sAfterReplacement {
+// http://codeforces.com/contest/1400/problem/C
+public class BinaryStringReconstruction {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
         InputReader in = new InputReader(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
         Task solver = new Task();
-//        int t = in.nextInt();
-        solver.solve(1, in, out);
+        int t = in.nextInt();
+        solver.solve(t, in, out);
         out.close();
     }
 
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-
-        }
-        public static int findLength(int[] arr, int k) {
-            int start = 0;
-            int max = 0;
-            int ones = 0;
-            for (int end = 0; end < arr.length; end++) {
-                if (arr[end] == 1){
-                    ones++;
+            for (int t = 0; t < testNumber; t++) {
+                String s = in.next();
+                int x = in.nextInt();
+                Character[] ans = new Character[s.length()];
+                for (int i = 0; i < s.length(); i++) {
                 }
-                if (end-start+1 - ones > k){
-                    if (arr[start] == 1){
-                        ones--;
-                    }
-                    start++;
-                }
-                max = Math.max(max, end-start+1);
             }
-            return max;
         }
     }
 

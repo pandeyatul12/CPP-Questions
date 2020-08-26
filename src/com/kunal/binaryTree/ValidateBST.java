@@ -1,11 +1,9 @@
-package com.kunal.slidingWindow;
+package com.kunal.binaryTree;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.StringTokenizer;
 
-public class LongestSubArrWith1sAfterReplacement {
+public class ValidateBST {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -21,24 +19,40 @@ public class LongestSubArrWith1sAfterReplacement {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 
         }
-        public static int findLength(int[] arr, int k) {
-            int start = 0;
-            int max = 0;
-            int ones = 0;
-            for (int end = 0; end < arr.length; end++) {
-                if (arr[end] == 1){
-                    ones++;
-                }
-                if (end-start+1 - ones > k){
-                    if (arr[start] == 1){
-                        ones--;
-                    }
-                    start++;
-                }
-                max = Math.max(max, end-start+1);
-            }
-            return max;
+
+        public boolean isValidBST(TreeNode root) {
+            return isValidBST(root, null, null);
         }
+
+        private boolean isValidBST(TreeNode node, Integer low, Integer high) {
+            if (node == null){
+                return true;
+            }
+            if (low != null && node.val <= low) return false;
+            if (high != null && node.val >= high) return false;
+
+            return isValidBST(node.left, low, node.val) && isValidBST(node.right, node.val, high);
+        }
+
+        public class TreeNode {
+            int val;
+            TreeNode left;
+            TreeNode right;
+
+            TreeNode() {
+            }
+
+            TreeNode(int val) {
+                this.val = val;
+            }
+
+            TreeNode(int val, TreeNode left, TreeNode right) {
+                this.val = val;
+                this.left = left;
+                this.right = right;
+            }
+        }
+
     }
 
     static class InputReader {
