@@ -1,11 +1,13 @@
-package com.kunal.recursion;
+package com.kunal.twoPointer;
 
+import javax.swing.tree.DefaultMutableTreeNode;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class BalancedParenthesis {
+public class TripletSumZero {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -18,41 +20,43 @@ public class BalancedParenthesis {
     }
 
     static class Task {
-        int n;
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            n = in.nextInt();
-            ans("",0,0);
-            List<String> list = new ArrayList<>();
-            ansList("", 0, 0, list);
-            out.println(list);
+
+        }
+        public static List<List<Integer>> searchTriplets(int[] arr) {
+            List<List<Integer>> triplets = new ArrayList<>();
+            Arrays.sort(arr);
+
+            for (int i = 0; i < arr.length; i++) {
+                if (i > 0 && arr[i] == arr[i-1]){
+                    continue;
+                }
+                search(arr, -arr[i], i+1, triplets);
+            }
+            return triplets;
         }
 
-        private void ansList(String str, int open, int close, List<String> list) {
-            if (close == n) {
-                list.add(str);
-                return;
-            }
-            if (open < n) {
-                ansList(str+"(", open+1, close, list);
-            }
-            if (close < open) {
-                ansList(str + ")", open, close+1, list);
+        private static void search(int[] arr, int target, int start, List<List<Integer>> triplets) {
+            int end = arr.length-1;
+            while (start < end){
+                int sum = arr[start] + arr[end];
+                if (sum == target){
+                    triplets.add(Arrays.asList(-target, arr[start], arr[end]));
+                    start++;
+                    end--;
+                    while (start < end && arr[start] == arr[start-1]){
+                        start++;
+                    }
+                    while (start < end && arr[end] == arr[end+1]){
+                        end--;
+                    }
+                }else if (target > sum){
+                    start++;
+                }else{
+                    end--;
+                }
             }
         }
-
-        private void ans(String s, int open, int closed) {
-           if (closed == n){
-               System.out.println(s);
-               return;
-           }
-           if (open < n){
-               ans(s + "(",open + 1, closed);
-           }
-           if (closed < open){
-               ans(s + ")",open, closed+1);
-           }
-        }
-
     }
 
     static class InputReader {

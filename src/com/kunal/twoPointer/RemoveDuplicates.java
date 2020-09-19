@@ -1,11 +1,9 @@
-package com.kunal.recursion;
+package com.kunal.twoPointer;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.StringTokenizer;
 
-public class BalancedParenthesis {
+public class RemoveDuplicates {
     public static void main(String[] args) throws IOException {
         InputStream inputStream = System.in;
         OutputStream outputStream = System.out;
@@ -18,41 +16,31 @@ public class BalancedParenthesis {
     }
 
     static class Task {
-        int n;
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            n = in.nextInt();
-            ans("",0,0);
-            List<String> list = new ArrayList<>();
-            ansList("", 0, 0, list);
-            out.println(list);
+
         }
 
-        private void ansList(String str, int open, int close, List<String> list) {
-            if (close == n) {
-                list.add(str);
-                return;
+        public static int remove(int[] arr) {
+            int nextNonDup = 1;
+            for (int i = 1; i < arr.length; i++) {
+                if (arr[nextNonDup-1] != arr[i]){
+                    arr[nextNonDup] = arr[i];
+                    nextNonDup++;
+                }
             }
-            if (open < n) {
-                ansList(str+"(", open+1, close, list);
-            }
-            if (close < open) {
-                ansList(str + ")", open, close+1, list);
-            }
+            return nextNonDup;
         }
 
-        private void ans(String s, int open, int closed) {
-           if (closed == n){
-               System.out.println(s);
-               return;
-           }
-           if (open < n){
-               ans(s + "(",open + 1, closed);
-           }
-           if (closed < open){
-               ans(s + ")",open, closed+1);
-           }
+        public static int remove(int[] arr, int key) {
+            int placeHere = 0;
+            for (int i = 0; i < arr.length; i++) {
+                if (arr[i] != key){
+                    arr[placeHere] = arr[i];
+                    placeHere++;
+                }
+            }
+            return placeHere;
         }
-
     }
 
     static class InputReader {
