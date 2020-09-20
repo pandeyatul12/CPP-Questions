@@ -1,8 +1,5 @@
 package com.kunal.recursion;
 
-import java.util.*;
-
-
 class CountUniqueTrees {
     public static void main(String[] args) {
         CountUniqueTrees ct = new CountUniqueTrees();
@@ -22,15 +19,5 @@ class CountUniqueTrees {
             count += countTrees(start, i-1) * countTrees(i+1, end);
         }
         return count;
-    }
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 }

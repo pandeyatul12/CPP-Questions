@@ -1,4 +1,4 @@
-package com.kunal.divideNconquer;
+package com.kunal.binarySearch;
 
 public class RotatedBinarySearch {
 
@@ -62,7 +62,7 @@ public class RotatedBinarySearch {
         if (key > arr[mid]) {
             return binarySearch(arr, (mid + 1), high, key);
         }
-        return binarySearch(arr, low, (mid -1), key);
+        return binarySearch(arr, low, (mid - 1), key);
     }
 
     public static void main(String[] args) {
