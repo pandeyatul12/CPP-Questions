@@ -2,11 +2,13 @@ package com.kunal.binarySearch;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {3, 3, 7, 3};
-        System.out.println(findPivotRBS(arr));
+        int[] arr = {1, 2, 5, 8, 12};
+        System.out.println(findPivot(arr));
+        System.out.println(floor(arr, 7));
     }
 
     // In Bitonic Array: [1, 3, 8, 4, 3]
+    // NOTE: Will fail if array contains duplicates
     public static int findPivot(int[] arr) {
         int low = 0;
         int high = arr.length - 1;
@@ -18,6 +20,7 @@ public class Main {
                 low = mid + 1;
             }
         }
+        // outside this loop low = high
         return arr[low];
     }
 
@@ -42,7 +45,7 @@ public class Main {
         }
         return -1;
     }
-
+    // This will work in case of duplicate numbers
     public static int pivot2(int[] arr) {
         int low = 0;
         int high = arr.length - 1;
@@ -131,5 +134,26 @@ public class Main {
         }
         // since the loop is running until 'low <= high', so at the end of the while loop, 'low == high+1'
         return arr[low % arr.length];
+    }
+
+    // we can first find the number closest to ‘target’ through Binary Search
+    // check for {1, 2, 5, 8, 12}, target = 7
+    private static int numberClosestToTarget(int[] arr, int target) {
+        int low = 0;
+        int high = arr.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] == target)
+                return mid;
+            if (arr[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        if (low > 0) {
+            return low - 1;
+        }
+        return low;
     }
 }
