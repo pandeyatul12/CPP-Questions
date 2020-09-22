@@ -20,21 +20,21 @@ public class GasStation {
 
         }
         public int canCompleteCircuit(int[] gas, int[] cost) {
-            int j = 0;
-            int i = 0;
-            int curr = 0;
+            int start = 0;
+            int currPos = 0;
+            int currCap = 0;
             int n = gas.length;
-            while (i < n){
-                curr += gas[j%n];
-                if (curr < cost[j%n]){
-                    curr=0;
-                    j++;
-                    i = j;
-                }else{
-                    curr -= cost[j%n];
-                    j++;
-                    if (i == j%n){
-                        return i;
+            while (start < n) {
+                currCap += gas[currPos % n];
+                if (currCap < cost[currPos % n]) {
+                    start++;
+                    currCap = 0;
+                    currPos = start;
+                } else {
+                    currCap -= cost[currPos % n];
+                    currPos++;
+                    if (start == currPos%n) {
+                        return start;
                     }
                 }
             }
