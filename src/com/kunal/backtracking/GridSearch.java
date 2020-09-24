@@ -24,22 +24,6 @@ RAT
 MNT RAH MSR OOB
      */
     static class Task {
-        public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
-            int n = in.nextInt();
-            char[][] grid = new char[n][n];
-            for (int i = 0; i < n; i++) {
-                grid[i] = in.nextLine().toCharArray();
-            }
-            int q = in.nextInt();
-            for (int i = 0; i < q; i++) {
-                String word = in.next();
-                if (check(grid, word, n, n))
-                    out.print("Yes ");
-                else
-                    out.print("No ");
-            }
-        }
-
         static boolean find(char[][] matrix, String pat, int x, int y, int row, int col, int level) {
             int l = pat.length();
 
@@ -65,7 +49,6 @@ MNT RAH MSR OOB
         }
 
         static boolean check(char[][] matrix, String pattern, int row, int col) {
-
             int l = pattern.length();
 
             if (l > row * col)
@@ -79,6 +62,22 @@ MNT RAH MSR OOB
                 }
             }
             return false;
+        }
+
+        public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
+            int n = in.nextInt();
+            char[][] grid = new char[n][n];
+            for (int i = 0; i < n; i++) {
+                grid[i] = in.nextLine().toCharArray();
+            }
+            int q = in.nextInt();
+            for (int i = 0; i < q; i++) {
+                String word = in.next();
+                if (check(grid, word, n, n))
+                    out.print("Yes ");
+                else
+                    out.print("No ");
+            }
         }
     }
 
