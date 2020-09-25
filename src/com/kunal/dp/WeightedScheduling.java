@@ -3,26 +3,32 @@ package com.kunal.dp;
 import java.util.Arrays;
 import java.util.Comparator;
 
-class Entry {
-    int start;
-    int end;
-    int value;
-
-    public Entry(int start, int end, int value) {
-        this.start = start;
-        this.end = end;
-        this.value = value;
-    }
-
-}
-
 public class WeightedScheduling {
     public static void main(String[] args) {
-        Entry[] entries = {new Entry(0, 2, 25), new Entry(1, 5, 40), new Entry(6, 8, 170), new Entry(3, 7, 220)};
+        Entry[] entries = {
+                new Entry(0, 2, 25),
+                new Entry(1, 5, 40),
+                new Entry(6, 8, 170),
+                new Entry(3, 7, 220)
+        };
+
         Arrays.sort(entries, Comparator.comparingInt(o -> o.end));
+
         System.out.println(findMaxProfitItr(entries)); // 245
         System.out.println(findMaxProfitRec(entries)); // 245
         System.out.println(findMaxProfitRecDP(entries)); // 245
+    }
+
+    static class Entry {
+        int start;
+        int end;
+        int value;
+
+        public Entry(int start, int end, int value) {
+            this.start = start;
+            this.end = end;
+            this.value = value;
+        }
     }
 
     public static int weightedSchedule(Entry[] entries) {
@@ -111,7 +117,6 @@ public class WeightedScheduling {
             // Store maximum of including and excluding
             dp[i] = Math.max(inclProf, dp[i - 1]);
         }
-
         return dp[n];
     }
 

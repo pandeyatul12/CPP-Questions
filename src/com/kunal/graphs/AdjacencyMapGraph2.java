@@ -1,6 +1,6 @@
 package com.kunal.graphs;
 
-import com.kunal.heaps.Heap;
+import com.kunal.heaps.Heap2;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -449,7 +449,7 @@ public class AdjacencyMapGraph2 {
 
         // We use this hashmap so that we can find neighbours in constant time
         HashMap<String, PrimsPair> map = new HashMap<>();
-        Heap<PrimsPair> heap = new Heap<>();
+        Heap2<PrimsPair> heap = new Heap2<>();
 
         // make pairs and put in heap and map
         for (String key : vtces.keySet()) {
@@ -511,7 +511,7 @@ public class AdjacencyMapGraph2 {
         // We use this hasmap so that we can find neighbours in constant time
         HashMap<String, DijkstraPair> map = new HashMap<>();
 
-        Heap<DijkstraPair> heap = new Heap<>();
+        Heap2<DijkstraPair> heap = new Heap2<>();
 
         // make pairs and put in heap and map
         for (String key : vtces.keySet()) {

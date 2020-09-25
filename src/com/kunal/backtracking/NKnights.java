@@ -55,26 +55,20 @@ public class NKnights {
         }
 
         if (isValid(row - 1, col + 2, board)) {
-            if (board[row - 1][col + 2]) {
-                return false;
-            }
+            return !board[row - 1][col + 2];
         }
 
         return true;
     }
 
     private static boolean isValid(int row, int col, boolean[][] board) {
-        if (row >= 0 && row < board.length && col >= 0 && col < board.length) {
-            return true;
-        }
-
-        return false;
+        return row >= 0 && row < board.length && col >= 0 && col < board.length;
     }
 
     public static void display(boolean[][] board) {
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[i].length; j++) {
-                if (board[i][j]) {
+        for (boolean[] booleans : board) {
+            for (boolean aBoolean : booleans) {
+                if (aBoolean) {
                     System.out.print("K ");
                 } else {
                     System.out.print("O ");

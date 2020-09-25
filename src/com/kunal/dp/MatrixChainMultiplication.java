@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class MatrixChainMultiplication {
     public static void main(String[] args) {
         int[] dims = {3, 3, 2, 1, 2};
-        System.out.println(minMulti(dims));     // 21
-        System.out.println(minMulti2(dims));     // 21
+        System.out.println(minMulti(dims));        // 21
+        System.out.println(minMultiRec(dims));     // 21
         System.out.println(minMultiItr(dims));     // 21
     }
 
@@ -27,11 +27,11 @@ public class MatrixChainMultiplication {
     }
 
     // same as above but using indexing
-    public static int minMulti2(int[] dims) {
-        return minMulti2(dims, 0, dims.length);
+    public static int minMultiRec(int[] dims) {
+        return minMultiRec(dims, 0, dims.length);
     }
 
-    private static int minMulti2(int[] dims, int i, int j) {
+    private static int minMultiRec(int[] dims, int i, int j) {
         if (j - i <= 2) {
             return 0;
         }
@@ -39,13 +39,13 @@ public class MatrixChainMultiplication {
         for (int k = i + 1; k < j - 1; k++) {
             min = Math.min(
                     min,
-                    minMulti2(dims, i, k + 1) + minMulti2(dims, k, j) + (dims[i] * dims[j - 1] * dims[k])
+                    minMultiRec(dims, i, k + 1) + minMultiRec(dims, k, j) + (dims[i] * dims[j - 1] * dims[k])
             );
         }
         return min;
     }
 
-//    Time Complexity : O(N^3), Space: O(N^2)
+    //    Time Complexity : O(N^3), Space: O(N^2)
     public static int minMultiItr(int[] arr) {
         int n = arr.length;
         /* For simplicity of the program, one extra row and one
