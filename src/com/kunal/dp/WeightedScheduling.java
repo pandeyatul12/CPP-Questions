@@ -35,7 +35,6 @@ public class WeightedScheduling {
         Arrays.sort(entries, Comparator.comparingInt(o -> o.start));
         return weightedSchedule(entries, 0, 0, null);
     }
-
     private static int weightedSchedule(Entry[] entries, int index, int sum, Entry prev) {
         if (index == entries.length) {
             return sum;
@@ -50,6 +49,7 @@ public class WeightedScheduling {
         return Math.max(first, second);
     }
 
+    // Time: O(N * 2^N)
     // Better Way: Must be sorted according to end time
     public static int findMaxProfitRec(Entry[] entries) {
         return findMaxProfitRec(entries, entries.length);
@@ -71,6 +71,7 @@ public class WeightedScheduling {
         return Math.max(inclProf, exclProf);
     }
 
+    // Time: O(N^2), space O(N)
     public static int findMaxProfitRecDP(Entry[] entries) {
         Integer[] dp = new Integer[entries.length];
         return findMaxProfitRecDP(entries, entries.length, dp);
@@ -96,6 +97,7 @@ public class WeightedScheduling {
         return dp[n - 1];
     }
 
+    // Time: O(N^2), space O(N)
     public static int findMaxProfitItr(Entry[] arr) {
         int n = arr.length;
         // Sort jobs according to finish time

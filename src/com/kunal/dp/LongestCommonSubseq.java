@@ -18,6 +18,7 @@ public class LongestCommonSubseq {
         System.out.println(lcsItr(first, second));
     }
 
+    // Time: O(2^(m+n))
     public static int lcsRec(String first, String second) {
         if (first.isEmpty() || second.isEmpty()) {
             return 0;
@@ -33,6 +34,7 @@ public class LongestCommonSubseq {
         }
     }
 
+    // time and space: O(mn)
     public static int lcsRecDP(String first, String second, int[][] mem) {
         if (first.isEmpty() || second.isEmpty()) {
             return 0;
@@ -53,6 +55,7 @@ public class LongestCommonSubseq {
         return mem[first.length()][second.length()];
     }
 
+    // time and space: O(mn)
     public static int lcsItr(String first, String second) {
         int[][] mem = new int[first.length() + 1][second.length() + 1];
 

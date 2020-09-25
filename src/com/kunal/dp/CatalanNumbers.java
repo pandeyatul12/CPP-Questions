@@ -13,6 +13,7 @@ public class CatalanNumbers {
         System.out.println(catalanItr(4));
     }
 
+    // Time Complexity : O(n!)
     private static int catalan(int n) {
         if (n == 0) {
             return 1;
@@ -24,6 +25,8 @@ public class CatalanNumbers {
         return count;
     }
 
+    // Time Complexity : O(n^2)
+    // Space : O(N)
     public static int catalanDP(int n) {
         Integer[] dp = new Integer[n + 1];
         return catalanDP(n, dp);
@@ -43,6 +46,8 @@ public class CatalanNumbers {
         return count;
     }
 
+    // Time Complexity : O(n^2)
+    // Space : O(N)
     public static int catalanItr(int n) {
         int[] dp = new int[n+1];
         dp[0] = 1;

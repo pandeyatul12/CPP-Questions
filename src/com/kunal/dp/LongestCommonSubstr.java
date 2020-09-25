@@ -7,6 +7,7 @@ public class LongestCommonSubstr {
         System.out.println(lcsItr("hello", "ellf"));
     }
 
+    // Time: O(3^(m+n))
     private static int lcs(String a, String b) {
         if (a.isEmpty() || b.isEmpty()) {
             return 0;
@@ -19,6 +20,7 @@ public class LongestCommonSubstr {
         return Math.max(first, second);
     }
 
+//    Time & Space: O(mn^2)
     public static int lcsDP(String a, String b) {
         Integer[][] dp = new Integer[a.length()+1][b.length()+1];
         return lcsDP(a, b, dp);
@@ -39,6 +41,7 @@ public class LongestCommonSubstr {
         return dp[a.length()][b.length()];
     }
 
+    //    Time & Space: O(mn)
     public static int lcsItr(String a, String b) {
         int[][] dp = new int[a.length()+1][b.length()+1];
         for (int i = 0; i <= a.length(); i++) {

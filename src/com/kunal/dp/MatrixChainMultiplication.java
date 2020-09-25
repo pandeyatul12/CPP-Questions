@@ -10,6 +10,7 @@ public class MatrixChainMultiplication {
         System.out.println(minMultiItr(dims));     // 21
     }
 
+    // Time: O(N^2 * 2^N)
     public static int minMulti(int[] dims) {
         if (dims.length <= 2) {
             return 0;
@@ -27,6 +28,7 @@ public class MatrixChainMultiplication {
     }
 
     // same as above but using indexing
+    // Time: O(N * 2^N)
     public static int minMultiRec(int[] dims) {
         return minMultiRec(dims, 0, dims.length);
     }

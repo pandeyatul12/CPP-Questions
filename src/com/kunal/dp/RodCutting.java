@@ -8,6 +8,7 @@ public class RodCutting {
         System.out.println(rodCuttingDP(arr, n));
         System.out.println(rodCuttingItr(arr, n));
     }
+    // Time Complexity: O(2^n)
     public static int rodCutting(int[] arr, int n) {
         if (n == 0) {
             return 0;
@@ -18,6 +19,8 @@ public class RodCutting {
         }
         return profit;
     }
+
+//    Time: O(n^2) Space: O(n)
     public static int rodCuttingDP(int[] arr, int n) {
         Integer[] dp = new Integer[n + 1];
         return rodCuttingDP(arr, n, dp);
@@ -36,6 +39,8 @@ public class RodCutting {
         dp[n] = profit;
         return profit;
     }
+
+    //    Time: O(n^2) Space: O(n)
     public static int rodCuttingItr(int[] arr, int n) {
         int[] dp = new int[n + 1];
         dp[0] = 0;
