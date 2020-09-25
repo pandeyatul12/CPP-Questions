@@ -49,9 +49,9 @@ public class Board {
     public static int countBoardItr(int target, int faces) {
         int[] dp = new int[target+1];
         dp[0] = 1;
-        for (int i = 1; i <= target; i++) {
+        for (int i = 1; i <= target; i++) { // this is for faces, say you had only i faces, etc.
             int count = 0;
-            for (int face = 1; face <= i && face <= faces; face++) {
+            for (int face = 1; face <= i && face <= faces; face++) { // this is the one in our recursion call
                 count += dp[i-face];
             }
             dp[i] = count;
