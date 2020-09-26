@@ -17,16 +17,16 @@ public class JumpingFromTowers {
 
         Stack<List<Integer>> start = new Stack<>();
         long count = 0;
-        for (int i = 0; i < arr.length; i++) {
-            while (!start.empty() && start.peek().get(0) < arr[i]) {
+        for (int value : arr) {
+            while (!start.empty() && start.peek().get(0) < value) {
                 start.pop();
             }
-            if (!start.empty() && start.peek().get(0) == arr[i]) {
+            if (!start.empty() && start.peek().get(0) == value) {
                 count += start.peek().get(1);
                 start.peek().set(1, start.peek().get(1) + 1);
             } else {
                 List<Integer> StartNew = new ArrayList<>(2);
-                StartNew.add(arr[i]);
+                StartNew.add(value);
                 StartNew.add(1);    // for adding in count
                 start.push(StartNew);
             }

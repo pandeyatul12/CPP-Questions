@@ -4,7 +4,8 @@ public class Knapsack {
     public static void main(String[] args) {
         int[] profits = {1, 6, 10, 16};
         int[] weights = {1, 2, 3, 5};
-        int maxProft = knapsackItr(profits, weights, 6);
+        int maxProfit = knapsackItr(profits, weights, 6);
+        System.out.println(maxProfit);
     }
 
     public static int knapsack(int[] profits, int[] weights, int capacity) {
@@ -64,12 +65,12 @@ public class Knapsack {
         // process all sub-arrays for all the capacities
         for (int i = 1; i < n; i++) {
             for (int c = 1; c <= capacity; c++) {
-                int profit1 = 0, profit2 = 0;
+                int profit1 = 0;
                 // include the item, if it is not more than the capacity
                 if (weights[i] <= c)
                     profit1 = profits[i] + dp[i - 1][c - weights[i]];
                 // exclude the item
-                profit2 = dp[i - 1][c];
+                int profit2 = dp[i - 1][c];
                 // take maximum
                 dp[i][c] = Math.max(profit1, profit2);
             }

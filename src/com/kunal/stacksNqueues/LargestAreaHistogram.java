@@ -44,9 +44,6 @@ public class LargestAreaHistogram {
         } else {
             area = arr[popped] * (i - stack.peek() - 1);
         }
-        if(max < area) {
-            max = area;
-        }
-        return max;
+        return Math.max(max, area);
     }
 }
