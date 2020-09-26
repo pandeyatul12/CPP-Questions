@@ -53,6 +53,28 @@ public class BalancedParenthesis {
            }
         }
 
+        public List<String> generateParenthesis(int n) {
+            return generateParenthesis(n, 0, 0, "");
+        }
+
+        private List<String> generateParenthesis(int n, int open, int closed, String s) {
+            if (closed == n) {
+                List<String> list = new ArrayList<>();
+                list.add(s);
+                return list;
+            }
+
+            List<String> ans = new ArrayList<>();
+
+            if (open < n) {
+                ans.addAll(generateParenthesis(n, open+1, closed, s+"("));
+            }
+            if (closed < open) {
+                ans.addAll(generateParenthesis(n, open, closed+1, s+")"));
+            }
+            return ans;
+        }
+
     }
 
     static class InputReader {

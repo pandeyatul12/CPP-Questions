@@ -43,8 +43,7 @@ public class AllPartitionsPalinMIN {
             if(!isPalin(processed)){
                 continue;
             }
-            ArrayList<String> temp = new ArrayList<>();
-            temp.addAll(list);
+            ArrayList<String> temp = new ArrayList<>(list);
             temp.add(processed);
             l.addAll(partitions(temp, unprocessed.substring(i)));
         }
