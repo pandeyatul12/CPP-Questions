@@ -288,9 +288,6 @@ public class AdjacencyListGraph<T> {
             neighbours = new LinkedList<>();
         }
     }
-}
-
-class AdjacencyListGraphDriver {
 
     public static void main(String[] args) {
 
@@ -325,4 +322,5 @@ class AdjacencyListGraphDriver {
         System.out.println(graph.bipartite());
 //        graph.bipartite();
     }
+
 }

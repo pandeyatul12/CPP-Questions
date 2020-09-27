@@ -599,9 +599,7 @@ public class AdjacencyMapGraph2 {
             return other.cost - this.cost;
         }
     }
-}
 
-class Main2 {
     public static void main(String[] args) {
         AdjacencyMapGraph2 graph = new AdjacencyMapGraph2();
 
@@ -631,5 +629,4 @@ class Main2 {
         System.out.println(graph.dfs("A", "G"));
         System.out.println(graph.gCC());
     }
-
 }
