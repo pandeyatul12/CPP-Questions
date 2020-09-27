@@ -17,6 +17,11 @@ public class SmallestWindowContainingSubstr {
         out.close();
     }
 
+    /*
+        Time Complexity: O(N + M)
+        Space Complexity: O(M) and O(N) to store result when the input string is a permutation of the pattern.
+    */
+
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 

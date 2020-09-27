@@ -11,6 +11,11 @@ public class PermutationInString {
         System.out.println(checkInclusion("ab", "hjsbaik"));
     }
 
+    /*
+        Time Complexity: O(N + M)
+        Space Complexity: O(M) // M is length of the pattern
+    */
+
     public static boolean checkInclusion(String s1, String s2) {
         int[] char_count = new int[26];
 

@@ -18,6 +18,11 @@ public class NoRepeatSubstring {
         out.close();
     }
 
+    /*
+        Time Complexity: O(N)
+        Space Complexity: O(K)?? but K <= N and we can use an array of size 26 to represent all letters hence
+        answer is O(1)
+    */
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
             System.out.println("Length of the longest substring: " + findLength2("aabccbb"));

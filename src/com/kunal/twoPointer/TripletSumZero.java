@@ -19,6 +19,10 @@ public class TripletSumZero {
         out.close();
     }
 
+    /*
+        Time Complexity: O(NlogN + N^2) = O(N^2)
+        Space Complexity: O(N) required for sorting, ignoring the output array
+    */
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 

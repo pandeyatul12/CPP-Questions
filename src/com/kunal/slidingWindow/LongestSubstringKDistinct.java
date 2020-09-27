@@ -17,6 +17,11 @@ public class LongestSubstringKDistinct {
         out.close();
     }
 
+    /*
+        Time Complexity: O(N)
+        Space Complexity: O(K)
+    */
+
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 

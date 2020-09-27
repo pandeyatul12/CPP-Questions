@@ -17,6 +17,10 @@ public class LongestSubStringWithSameLettersReplacement {
         out.close();
     }
 
+    /*
+        Time Complexity: O(N)
+        Space Complexity: O(26) = O(1)
+    */
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 

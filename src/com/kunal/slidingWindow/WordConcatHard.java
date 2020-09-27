@@ -16,6 +16,11 @@ public class WordConcatHard {
         out.close();
     }
 
+    /*
+        Time Complexity: O(N * M * Len), when Len is the lend of the words, M is total number of words
+        Space Complexity: O(M) for Hashmap & O(N) for result hence it will be O(N+M)
+    */
+
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 

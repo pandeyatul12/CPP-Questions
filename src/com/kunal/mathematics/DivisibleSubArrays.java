@@ -20,4 +20,24 @@ public class DivisibleSubArrays {
     public static void main(String[] args) {
         Scanner s = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
     }
+
+    public int subarraysDivByK(int[] A, int K) {
+        if (A == null || A.length == 0) {
+            return 0;
+        }
+
+        int[] mods = new int[K];
+        mods[0] = 1; // Represent the sum before index 0
+        int count = 0;
+        int sum = 0;
+        for (int a : A) {
+            sum = (sum + a) % K;
+            if (sum < 0) {
+                sum += K;
+            }
+            count += mods[sum];     // There has mods[nums] subarrays have the same remainder with curr sum.
+            mods[sum]++;
+        }
+        return count;
+    }
 }

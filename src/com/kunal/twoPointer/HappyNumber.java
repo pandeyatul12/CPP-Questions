@@ -1,5 +1,8 @@
 package com.kunal.twoPointer;
-
+/*
+    Time Complexity: O(logN)
+    Space Complexity: O(1)
+*/
 public class HappyNumber {
     public static boolean find(int num) {
         int slow = num;

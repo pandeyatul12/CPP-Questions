@@ -15,6 +15,13 @@ public class StringAnagrams {
         out.close();
     }
 
+    /*
+        Time Complexity: O(N + M)
+        Space Complexity: O(M)
+        In the worst case, we also need O(N) space for the result list,
+        this will happen when the pattern has only one character and the string contains only that character.
+    */
+
     static class Task {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 

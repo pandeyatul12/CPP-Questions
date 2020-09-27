@@ -1,15 +1,20 @@
 package com.kunal.linkedList;
 
-class ListNode {
-    int value = 0;
-    ListNode next;
-
-    ListNode(int value) {
-        this.value = value;
-    }
-}
+/*
+  Time Complexity: O(N)
+  Space Complexity: O(1)
+*/
 
 public class RearrangeLL {
+    static class ListNode {
+        int value;
+        ListNode next;
+
+        ListNode(int value) {
+            this.value = value;
+        }
+    }
+
     public static void reorder(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
