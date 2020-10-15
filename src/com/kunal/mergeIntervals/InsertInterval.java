@@ -2,7 +2,10 @@ package com.kunal.mergeIntervals;
 import java.util.*;
 
 public class InsertInterval {
-
+    /*
+            Time Complexity: O(n)
+            Space Complexity: O(n)
+        */
     static class Interval {
         int start;
         int end;
@@ -11,7 +14,7 @@ public class InsertInterval {
             this.start = start;
             this.end = end;
         }
-    };
+    }
 
     public static List<Interval> insert(List<Interval> intervals, Interval newInterval) {
         List<Interval> mergedIntervals = new ArrayList<>();
@@ -38,7 +41,7 @@ public class InsertInterval {
     }
 
     public static void main(String[] args) {
-        List<Interval> input = new ArrayList<Interval>();
+        List<Interval> input = new ArrayList<>();
         input.add(new Interval(1, 3));
         input.add(new Interval(5, 7));
         input.add(new Interval(8, 12));

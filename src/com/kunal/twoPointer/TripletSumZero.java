@@ -27,36 +27,37 @@ public class TripletSumZero {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 
         }
+
         public static List<List<Integer>> searchTriplets(int[] arr) {
             List<List<Integer>> triplets = new ArrayList<>();
             Arrays.sort(arr);
 
-            for (int i = 0; i < arr.length; i++) {
-                if (i > 0 && arr[i] == arr[i-1]){
+            for (int i = 0; i < arr.length - 2; i++) {
+                if (i > 0 && arr[i] == arr[i - 1]) {
                     continue;
                 }
-                search(arr, -arr[i], i+1, triplets);
+                search(arr, -arr[i], i + 1, triplets);
             }
             return triplets;
         }
 
         private static void search(int[] arr, int target, int start, List<List<Integer>> triplets) {
-            int end = arr.length-1;
-            while (start < end){
+            int end = arr.length - 1;
+            while (start < end) {
                 int sum = arr[start] + arr[end];
-                if (sum == target){
+                if (sum == target) {
                     triplets.add(Arrays.asList(-target, arr[start], arr[end]));
                     start++;
                     end--;
-                    while (start < end && arr[start] == arr[start-1]){
+                    while (start < end && arr[start] == arr[start - 1]) {
                         start++;
                     }
-                    while (start < end && arr[end] == arr[end+1]){
+                    while (start < end && arr[end] == arr[end + 1]) {
                         end--;
                     }
-                }else if (target > sum){
+                } else if (target > sum) {
                     start++;
-                }else{
+                } else {
                     end--;
                 }
             }

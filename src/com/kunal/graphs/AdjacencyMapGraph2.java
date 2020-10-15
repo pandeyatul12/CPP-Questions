@@ -14,6 +14,36 @@ public class AdjacencyMapGraph2 {
         this.vtces = new HashMap<>();
     }
 
+    public static void main(String[] args) {
+        AdjacencyMapGraph2 graph = new AdjacencyMapGraph2();
+
+        graph.addVertex("A");
+        graph.addVertex("B");
+        graph.addVertex("C");
+        graph.addVertex("D");
+        graph.addVertex("E");
+        graph.addVertex("F");
+        graph.addVertex("G");
+        graph.addVertex("H");
+
+        graph.addEdge("A", "B", 3);
+        graph.addEdge("A", "D", 2);
+        graph.addEdge("B", "C", 4);
+        graph.addEdge("D", "C", 4);
+        graph.addEdge("D", "E", 10);
+        graph.addEdge("F", "E", 9);
+        graph.addEdge("G", "E", 8);
+        graph.addEdge("F", "G", 6);
+
+        graph.display();
+
+        HashMap<String, Boolean> map = new HashMap<>();
+
+        System.out.println(graph.hasPath("A","H", map));
+        System.out.println(graph.dfs("A", "G"));
+        System.out.println(graph.gCC());
+    }
+
     public int numVertex() {
         return vtces.size();
     }
@@ -508,7 +538,7 @@ public class AdjacencyMapGraph2 {
 
         HashMap<String, Integer> ans = new HashMap<>();
 
-        // We use this hasmap so that we can find neighbours in constant time
+        // We use this hashmap so that we can find neighbours in constant time
         HashMap<String, DijkstraPair> map = new HashMap<>();
 
         Heap2<DijkstraPair> heap = new Heap2<>();
@@ -598,35 +628,5 @@ public class AdjacencyMapGraph2 {
         public int compareTo(DijkstraPair other) {
             return other.cost - this.cost;
         }
-    }
-
-    public static void main(String[] args) {
-        AdjacencyMapGraph2 graph = new AdjacencyMapGraph2();
-
-        graph.addVertex("A");
-        graph.addVertex("B");
-        graph.addVertex("C");
-        graph.addVertex("D");
-        graph.addVertex("E");
-        graph.addVertex("F");
-        graph.addVertex("G");
-        graph.addVertex("H");
-
-        graph.addEdge("A", "B", 3);
-        graph.addEdge("A", "D", 2);
-        graph.addEdge("B", "C", 4);
-        graph.addEdge("D", "C", 4);
-        graph.addEdge("D", "E", 10);
-        graph.addEdge("F", "E", 9);
-        graph.addEdge("G", "E", 8);
-        graph.addEdge("F", "G", 6);
-
-        graph.display();
-
-        HashMap<String, Boolean> map = new HashMap<>();
-
-//        System.out.println(graph.hasPath("A","H", map));
-        System.out.println(graph.dfs("A", "G"));
-        System.out.println(graph.gCC());
     }
 }

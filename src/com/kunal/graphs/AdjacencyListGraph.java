@@ -10,6 +10,40 @@ public class AdjacencyListGraph<T> {
         vertices = new LinkedList<>();
     }
 
+    public static void main(String[] args) {
+
+        AdjacencyListGraph<Character> graph = new AdjacencyListGraph<>();
+
+        graph.addVertex('A');
+        graph.addVertex('B');
+        graph.addVertex('C');
+        graph.addVertex('D');
+//        graph.addVertex('E');
+
+        graph.addVertex('F');
+
+        graph.addEdge('A', 'B');
+        graph.addEdge('A', 'C');
+        graph.addEdge('C', 'D');
+        graph.addEdge('A', 'D');
+
+//        graph.addEdge('E', 'F');
+
+//        graph.display();
+//
+//        System.out.println(graph.DFS('A'));
+//        System.out.println(graph.BFS('B'));
+//
+        graph.BFT();
+        graph.ShortPath();
+
+//        graph.connectedComponents();
+
+//        graph.BFT();
+//        System.out.println(graph.bipartite());
+//        graph.bipartite();
+    }
+
     public void addVertex(T value) {
         vertices.add(new Vertex((value)));
     }
@@ -213,7 +247,6 @@ public class AdjacencyListGraph<T> {
 
             if (red.contains(front)) {
                 for (Vertex neighbour : front.neighbours) {
-
                     if (processed.contains(neighbour)) {
                         if (red.contains(neighbour)) {
                             return false;
@@ -287,40 +320,6 @@ public class AdjacencyListGraph<T> {
             this.value = value;
             neighbours = new LinkedList<>();
         }
-    }
-
-    public static void main(String[] args) {
-
-        AdjacencyListGraph<Character> graph = new AdjacencyListGraph<>();
-
-        graph.addVertex('A');
-        graph.addVertex('B');
-        graph.addVertex('C');
-        graph.addVertex('D');
-//        graph.addVertex('E');
-
-        graph.addVertex('F');
-
-        graph.addEdge('A', 'B');
-        graph.addEdge('A', 'C');
-        graph.addEdge('C', 'D');
-        graph.addEdge('A', 'D');
-
-//        graph.addEdge('E', 'F');
-
-//        graph.display();
-//
-//        System.out.println(graph.DFS('A'));
-//        System.out.println(graph.BFS('B'));
-//
-//        graph.BFT();
-//        graph.ShortPath();
-
-//        graph.connectedComponents();
-
-        graph.BFT();
-        System.out.println(graph.bipartite());
-//        graph.bipartite();
     }
 
 }

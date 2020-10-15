@@ -8,6 +8,10 @@ public class Knapsack {
         System.out.println(maxProfit);
     }
 
+    /*
+        Time Complexity: O(2^N)
+        Space Complexity: O(N)
+    */
     public static int knapsack(int[] profits, int[] weights, int capacity) {
         return knapsack(profits, weights, capacity, 0);
     }
@@ -26,6 +30,11 @@ public class Knapsack {
         return Math.max(profit1, profit2);
     }
 
+    /*
+        Time Complexity: O(N*C)
+        Space Complexity: O(N*C)
+        where ‘N’ is the number of items and ‘C’ is the knapsack capacity
+    */
     public static int knapsackDP(int[] profits, int[] weights, int capacity, int index, Integer[][] mem) {
         if (capacity <= 0 || index >= profits.length) {
             return 0;
@@ -43,6 +52,11 @@ public class Knapsack {
         return mem[index][capacity];
     }
 
+    /*
+        Time Complexity: O(N*C)
+        Space Complexity: O(N*C)
+        where ‘N’ is the number of items and ‘C’ is the knapsack capacity
+    */
     // meme[i][j] means max profit to get when capacity is j with first i items
     public static int knapsackItr(int[] profits, int[] weights, int capacity) {
         // base checks

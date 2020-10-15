@@ -4,6 +4,10 @@ import java.util.*;
 
 public class MergeIntervals {
 
+    /*
+        Time Complexity: O(n log n)
+        Space Complexity: O(n)
+    */
     static class Interval {
         int start;
         int end;
@@ -12,7 +16,7 @@ public class MergeIntervals {
             this.start = start;
             this.end = end;
         }
-    };
+    }
 
     public static List<Interval> merge(List<Interval> intervals) {
         List<Interval> mergedIntervals = new LinkedList<>();

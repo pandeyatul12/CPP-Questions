@@ -34,8 +34,8 @@ public class PrintKDistance {
 
     public void populate(int[] nums) {
 
-        for (int i = 0; i < nums.length; i++) {
-            this.insert(nums[i]);
+        for (int num : nums) {
+            this.insert(num);
         }
     }
 

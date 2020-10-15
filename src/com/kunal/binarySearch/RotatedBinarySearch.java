@@ -2,7 +2,7 @@ package com.kunal.binarySearch;
 
 public class RotatedBinarySearch {
 
-    static int pivotedBinarySearch(int arr[], int n, int key) {
+    static int pivotedBinarySearch(int[] arr, int n, int key) {
         int pivot = findPivot(arr, 0, n-1);
 
         // If we didn't find a pivot, then
@@ -67,7 +67,7 @@ public class RotatedBinarySearch {
 
     public static void main(String[] args) {
         // Let us search 3 in below array
-        int arr1[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
+        int[] arr1 = {5, 6, 7, 8, 9, 10, 1, 2, 3};
         int n = arr1.length;
         int key = 3;
         System.out.println(pivotedBinarySearch(arr1, n, key));

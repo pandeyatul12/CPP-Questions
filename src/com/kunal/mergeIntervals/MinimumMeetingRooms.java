@@ -2,6 +2,10 @@ package com.kunal.mergeIntervals;
 
 import java.util.*;
 
+/*
+    Time Complexity: O(nlogn)
+    Space Complexity: O(n)
+*/
 
 public class MinimumMeetingRooms {
     static class Meeting {

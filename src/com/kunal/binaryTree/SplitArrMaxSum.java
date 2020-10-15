@@ -2,6 +2,7 @@ package com.kunal.binaryTree;
 
 import java.io.*;
 import java.util.StringTokenizer;
+
 // https://leetcode.com/problems/split-array-largest-sum/
 public class SplitArrMaxSum {
     public static void main(String[] args) throws IOException {
@@ -19,21 +20,22 @@ public class SplitArrMaxSum {
         public void solve(int testNumber, InputReader in, PrintWriter out) throws IOException {
 
         }
+
         public int splitArray(int[] nums, int m) {
             int max = 0;
             int sum = 0;
-            for(int num : nums){
+            for (int num : nums) {
                 max = Math.max(max, num);
                 sum += num;
             }
             int low = max;
             int high = sum;
-            while (low < high){
-                int mid = low + (high - low)/2;
+            while (low < high) {
+                int mid = low + (high - low) / 2;
                 int pieces = split(nums, mid);
-                if (pieces > m){
+                if (pieces > m) {
                     low = mid + 1;
-                }else{
+                } else {
                     high = mid;
                 }
             }
@@ -43,11 +45,11 @@ public class SplitArrMaxSum {
         private int split(int[] nums, int sum) {
             int s = 0;
             int count = 1;
-            for(int num : nums){
-                if (s + num > sum){
+            for (int num : nums) {
+                if (s + num > sum) {
                     s = num;
                     count++;
-                }else{
+                } else {
                     s += num;
                 }
             }

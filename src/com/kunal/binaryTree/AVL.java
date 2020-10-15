@@ -11,8 +11,8 @@ public class AVL {
     }
 
     public void populate(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            this.insert(nums[i]);
+        for (int num : nums) {
+            this.insert(num);
         }
     }
 
@@ -155,7 +155,6 @@ public class AVL {
             return node;
         }
 
-
         // left side trav
         if (node.value > value) {
             node.left = insert(value, node.left);
@@ -166,7 +165,6 @@ public class AVL {
         }
 
         // update the heights
-
         node.height = Math.max(height(node.left), height(node.right)) + 1;
 
         return rotate(node);
@@ -217,7 +215,7 @@ public class AVL {
         return node.height;
     }
 
-    public class Node {
+    public static class Node {
         private int value;
         private Node left;
         private Node right;
