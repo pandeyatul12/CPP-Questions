@@ -5,6 +5,11 @@ package com.kunal.linkedList;
   Space Complexity: O(1)
 */
 
+/*
+    Input: 2 -> 4 -> 6 -> 8 -> 10 -> 12 -> null
+    Output: 2 -> 12 -> 4 -> 10 -> 6 -> 8 -> null
+*/
+
 public class RearrangeLL {
     static class ListNode {
         int value;

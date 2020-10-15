@@ -1,4 +1,4 @@
-package com.kunal.twoPointer;
+package com.kunal.linkedList;
 /*
     Time Complexity: O(logN)
     Space Complexity: O(1)
