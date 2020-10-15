@@ -1,17 +1,17 @@
 package com.kunal.binaryTree;
 
-class Node {
-    int data;
-    Node left, right;
 
-    Node(int x) {
-        data = x;
-        left = right = null;
-    }
-}
 
 public class KthSmallest {
+    static class Node {
+        int data;
+        Node left, right;
 
+        Node(int x) {
+            data = x;
+            left = right = null;
+        }
+    }
     static int count = 0;
 
     public static Node insert(Node root, int x) {
