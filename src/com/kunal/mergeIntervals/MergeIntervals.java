@@ -1,4 +1,5 @@
 package com.kunal.mergeIntervals;
+
 import java.util.*;
 
 
@@ -25,10 +26,10 @@ public class MergeIntervals {
         for (int i = 1; i < intervals.size(); i++) {
             Interval b = intervals.get(i);
             // check if it overlaps
-            if (b.start < a.end){
+            if (b.start < a.end) {
                 // merge it
                 a = new Interval(Math.min(a.start, b.start), Math.max(a.end, b.end));
-            }else{
+            } else {
                 mergedIntervals.add(a);
                 a = b;
             }
