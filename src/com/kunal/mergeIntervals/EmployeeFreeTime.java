@@ -55,7 +55,8 @@ class EmployeeFreeTime {
             // if there are more intervals available for the same employee, add their next interval
             List<Interval> employeeSchedule = schedule.get(queueTop.employeeIndex);
             if (employeeSchedule.size() > queueTop.intervalIndex + 1) {
-                minHeap.offer(new EmployeeInterval(employeeSchedule.get(queueTop.intervalIndex + 1), queueTop.employeeIndex,
+                minHeap.offer(new EmployeeInterval(employeeSchedule.get(queueTop.intervalIndex + 1),
+                        queueTop.employeeIndex,
                         queueTop.intervalIndex + 1));
             }
         }
