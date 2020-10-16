@@ -26,7 +26,7 @@ public class TaskScheduler {
         while (!maxHeap.isEmpty()) {
             List<Map.Entry<Character, Integer>> waitList = new ArrayList<>();
             int n = k + 1;
-            // take top k+1 elements
+            // take top k+1 elements (try to execute k+1 tasks)
             while (n > 0 && !maxHeap.isEmpty()) {
                 Map.Entry<Character, Integer> removed = maxHeap.remove();
                 ans++;
@@ -38,6 +38,8 @@ public class TaskScheduler {
             }
             maxHeap.addAll(waitList);
             if (!maxHeap.isEmpty()) {
+                // If, for any iteration, we are not able to execute k+1 tasks,
+                // the CPU has to remain idle for the remaining time in the next iteration.
                 ans += n;
             }
         }

@@ -14,7 +14,7 @@ public class LongestCommonSubseq {
             Arrays.fill(ints, -1);
         }
 
-//        System.out.println(lcsRecDP(first, second, mem));
+        System.out.println(lcsRecDP(first, second, mem));
         System.out.println(lcsItr(first, second));
     }
 

@@ -51,6 +51,8 @@ public class RearrangeString {
             builder.append(current.getKey());
             current.setValue(current.getValue() - 1);
             queue.add(current);
+
+            // re-insert the character after k iterations
             if (queue.size() == k) {
                 Map.Entry<Character, Integer> removed = queue.remove();
                 if (removed.getValue() > 0) {
