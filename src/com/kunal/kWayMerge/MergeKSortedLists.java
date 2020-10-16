@@ -1,4 +1,4 @@
-package com.kunal.KWayMerge;
+package com.kunal.kWayMerge;
 
 import java.util.*;
 
