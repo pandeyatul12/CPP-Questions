@@ -1,7 +1,7 @@
 package com.kunal.cyclicSort;
 
 class FindDuplicate {
-
+    // Numbers from 1 to N
     public static int findNumber(int[] nums) {
         int i = 0;
         while (i < nums.length) {

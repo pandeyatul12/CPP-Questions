@@ -3,6 +3,8 @@ package com.kunal.cyclicSort;
 import java.util.*;
 
 /*
+  Given an unsorted array containing numbers and a number ‘k’, find the first ‘k’ missing positive numbers in the array.
+
   Time: O(N + K) // as the last two for loops will run for O(n) and O(k) times respectively.
   Space: O(K)
 */

@@ -3,7 +3,7 @@ package com.kunal.cyclicSort;
 import java.util.*;
 
 class FindAllDuplicate {
-
+    // Numbers from 1 to N
     public static List<Integer> findNumbers(int[] nums) {
         int i = 0;
         while (i < nums.length) {

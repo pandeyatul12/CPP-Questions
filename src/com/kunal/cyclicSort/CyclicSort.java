@@ -1,7 +1,7 @@
 package com.kunal.cyclicSort;
 
 class CyclicSort {
-
+// Numbers from 1 to N
     public static void sort(int[] nums) {
         int i = 0;
         while (i < nums.length) {

@@ -1,7 +1,7 @@
 package com.kunal.cyclicSort;
 
 class MissingNumber {
-
+    // Numbers from 0 to N
     public static int findMissingNumber(int[] nums) {
         int i = 0;
         while (i < nums.length) {
