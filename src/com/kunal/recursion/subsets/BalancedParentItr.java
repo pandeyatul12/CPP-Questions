@@ -1,4 +1,4 @@
-package com.kunal.recursion;
+package com.kunal.recursion.subsets;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

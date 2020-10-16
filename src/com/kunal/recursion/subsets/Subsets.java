@@ -1,4 +1,4 @@
-package com.kunal.subsets;
+package com.kunal.recursion.subsets;
 
 import java.util.*;
 
@@ -43,10 +43,10 @@ public class Subsets {
     }
 
     public static void main(String[] args) {
-        List<List<Integer>> result = Subsets.findSubsets(new int[] { 1, 3 });
+        List<List<Integer>> result = findSubsets(new int[] { 1, 3 });
         System.out.println("Here is the list of subsets: " + result);
 
-        result = Subsets.findSubsets(new int[] { 1, 3, 3 });
+        result = findSubsets(new int[] { 1, 3, 3 });
         System.out.println("Here is the list of subsets: " + result);
     }
 }

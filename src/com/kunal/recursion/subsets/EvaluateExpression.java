@@ -1,10 +1,13 @@
-package com.kunal.recursion;
+package com.kunal.recursion.subsets;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+/*
+    Time: O(N * 2^N)
+    Space: O(2^N)
+*/
 public class EvaluateExpression {
     public static void main(String[] args) {
         List<Integer> result = diffWaysToEvaluateExpression("1+2*3");
@@ -15,21 +18,22 @@ public class EvaluateExpression {
     }
 
     static Map<String, List<Integer>> map = new HashMap<>();
+
     private static List<Integer> diffWaysToEvaluateExpression(String s) {
         List<Integer> result = new ArrayList<>();
         if (map.containsKey(s)) {
             return map.get(s);
         }
-        if(!s.contains("+") && !s.contains("-") && !s.contains("*")) {
+        if (!s.contains("+") && !s.contains("-") && !s.contains("*")) {
             result.add(Integer.parseInt(s));
         } else {
             for (int i = 0; i < s.length(); i++) {
                 char ch = s.charAt(i);
-                if(!Character.isDigit(ch)) {
+                if (!Character.isDigit(ch)) {
                     List<Integer> left = diffWaysToEvaluateExpression(s.substring(0, i));
-                    List<Integer> right = diffWaysToEvaluateExpression(s.substring(i+1));
-                    for(int l : left) {
-                        for(int r : right) {
+                    List<Integer> right = diffWaysToEvaluateExpression(s.substring(i + 1));
+                    for (int l : left) {
+                        for (int r : right) {
                             if (ch == '+') {
                                 result.add(l + r);
                             }

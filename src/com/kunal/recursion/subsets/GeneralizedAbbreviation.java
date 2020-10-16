@@ -1,8 +1,11 @@
-package com.kunal.recursion;
+package com.kunal.recursion.subsets;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+    Time & Space: O(N * 2^N)
+*/
 public class GeneralizedAbbreviation {
     public static void main(String[] args) {
         List<String> list = ans("BAT");
@@ -21,13 +24,13 @@ public class GeneralizedAbbreviation {
             return;
         }
         char ch = up.charAt(0);
-        ans(p+ch, up.substring(1), list);
+        ans(p + ch, up.substring(1), list);
         // check if the last index contains a number
         if (p.length() > 0 && isNumeric(p.charAt(p.length() - 1) + "")) {
-            p = p.substring(0, p.length()-1) + (Integer.parseInt(p.charAt(p.length() - 1) + "") + 1);
+            p = p.substring(0, p.length() - 1) + (Integer.parseInt(p.charAt(p.length() - 1) + "") + 1);
             ans(p, up.substring(1), list);
-        }else{
-            ans(p+1, up.substring(1), list);
+        } else {
+            ans(p + 1, up.substring(1), list);
         }
     }
 
@@ -35,7 +38,7 @@ public class GeneralizedAbbreviation {
         try {
             Double.parseDouble(str);
             return true;
-        } catch(NumberFormatException e){
+        } catch (NumberFormatException e) {
             return false;
         }
     }
