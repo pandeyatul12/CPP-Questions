@@ -1,7 +1,10 @@
 package com.kunal.dp;
 
 // Given a set of positive numbers, partition the set into two subsets with minimum difference between their subset sums.
-
+    /*
+        Time: O(2^n)
+        Space: O(n)
+    */
 public class MinimumSubsetSum {
     public static void main(String[] args) {
         int[] num = {1, 2, 3, 4};
@@ -30,6 +33,10 @@ public class MinimumSubsetSum {
         return Math.min(diff1, diff2);
     }
 
+    /*
+    Time: O(ns)
+    Space: O(ns)
+*/
     // dp[i][s] will be ‘true’ if we can make the sum ‘s’ from the first ‘i’ numbers.
     public static int partitionSetDP(int[] num) {
         int sum = 0;
@@ -57,11 +64,13 @@ public class MinimumSubsetSum {
 
         return dp[currentIndex][sum1];
     }
-
+    /*
+        Time: O(ns)
+        Space: O(ns)
+    */
     public static int partitionSetItr(int[] num) {
         int sum = 0;
-        for (int i = 0; i < num.length; i++)
-            sum += num[i];
+        for (int value : num) sum += value;
 
         int n = num.length;
         boolean[][] dp = new boolean[n][sum / 2 + 1];

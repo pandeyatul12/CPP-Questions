@@ -1,5 +1,6 @@
 package com.kunal.dp;
-//Given a set of positive numbers, find the total number of subsets whose sum is equal to a given number ‘S’.
+
+// Given a set of positive numbers, find the total number of subsets whose sum is equal to a given number ‘S’.
 public class SubSetsSumS {
     public static void main(String[] args) {
         int[] num = {1, 1, 2, 3};
@@ -8,6 +9,10 @@ public class SubSetsSumS {
         System.out.println(countSubsetsItrSpace(num, 9));
     }
 
+    /*
+        Time: O(2^n)
+        Space: O(n)
+    */
     public static int countSubsets(int[] nums, int s) {
         return countSubsets(nums, s, 0);
     }
@@ -27,6 +32,10 @@ public class SubSetsSumS {
         return count;
     }
 
+    /*
+        Time: O(ns)
+        Space: O(ns)
+    */
     public static int countSubsetsDP(int[] nums, int s) {
         Integer[][] dp = new Integer[nums.length][s + 1];
         return countSubsetsDP(nums, s, 0, dp);
@@ -51,6 +60,10 @@ public class SubSetsSumS {
         return count;
     }
 
+    /*
+    Time: O(ns)
+    Space: O(ns)
+*/
     public static int countSubsetsItr(int[] nums, int sum) {
         int[][] dp = new int[nums.length][sum + 1];
 
@@ -72,6 +85,10 @@ public class SubSetsSumS {
         return dp[nums.length - 1][sum];
     }
 
+    /*
+    Time: O(ns)
+    Space: O(ss)
+*/
     public static int countSubsetsItrSpace(int[] nums, int sum) {
         int[] dp = new int[sum + 1];
         dp[0] = 1;

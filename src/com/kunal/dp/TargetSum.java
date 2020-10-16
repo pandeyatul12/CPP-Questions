@@ -1,7 +1,10 @@
 package com.kunal.dp;
 
 class TargetSum {
-
+    /*
+        Time: O(2^n)
+        Space: O(n)
+    */
     public int findTargetSubsets(int[] num, int s) {
         int totalSum = 0;
         for (int n : num)
@@ -14,6 +17,10 @@ class TargetSum {
         return countSubsets(num, (s + totalSum) / 2);
     }
 
+    /*
+       Time: O(ns)
+       Space: O(ns)
+    */
     // this function is exactly similar to what we have in 'Count of Subset Sum' problem.
     private int countSubsets(int[] num, int sum) {
         int n = num.length;
