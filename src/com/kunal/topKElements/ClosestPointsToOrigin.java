@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
-
+/*
+    Time: O(NLogK)
+    Space: O(K)
+*/
 public class ClosestPointsToOrigin {
 
     public static void main(String[] args) {

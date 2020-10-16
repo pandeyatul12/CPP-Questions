@@ -1,7 +1,11 @@
 package com.kunal.topKElements;
 
 import java.util.*;
-
+// Given a string, find if its letters can be rearranged in such a way that no two same characters come next to each other.
+/*
+    Time: O(NLogN)
+    Space: O(N)
+*/
 public class RearrangeString {
     public static void main(String[] args) {
         String str = "Programming";
@@ -29,7 +33,7 @@ public class RearrangeString {
         return builder.length() == str.length() ? builder.toString() : "";
     }
 
-    // if characters need tp be K distance apart
+    // if characters need to be K distance apart
     public static String ansKDist(String str, int k) {
         if (k <= 1) {
             return str;

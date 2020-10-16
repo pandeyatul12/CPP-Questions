@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
 
+/*
+    Time: O(NLogK)
+    Space: O(K)
+*/
 public class KLargestNumbers {
     public static void main(String[] args) {
         int[] list = {3, 1, 5, 12, 2, 11};
@@ -11,18 +15,18 @@ public class KLargestNumbers {
         System.out.println(kLargest(list, k));
     }
     private static List<Integer> kLargest(int[] arr, int k) {
-        PriorityQueue<Integer> heap = new PriorityQueue<>();
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         for (int i = 0; i < k; i++) {
-            heap.add(arr[i]);
+            minHeap.add(arr[i]);
         }
         for (int i = k; i < arr.length; i++) {
             int num = arr[i];
-            if (num > heap.peek()) {
-                heap.remove();
-                heap.add(num);
+            if (num > minHeap.peek()) {
+                minHeap.remove();
+                minHeap.add(num);
             }
         }
-        return new ArrayList<>(heap);
+        return new ArrayList<>(minHeap);
     }
 
 }

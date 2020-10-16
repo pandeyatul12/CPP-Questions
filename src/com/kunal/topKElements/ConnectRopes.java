@@ -1,7 +1,10 @@
 package com.kunal.topKElements;
 
 import java.util.PriorityQueue;
-
+/*
+    Time: O(NLogN)
+    Space: O(N)
+*/
 public class ConnectRopes {
     public static void main(String[] args) {
         int[] nums = {1, 3, 11, 5, 2};
@@ -9,15 +12,15 @@ public class ConnectRopes {
     }
 
     public static int ans(int[] nums) {
-        PriorityQueue<Integer> heap = new PriorityQueue<>();
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         for(int num : nums) {
-            heap.add(num);
+            minHeap.add(num);
         }
         int cost = 0;
-        while (heap.size() > 1) {
-            int removed = heap.remove() + heap.remove();
+        while (minHeap.size() > 1) {
+            int removed = minHeap.remove() + minHeap.remove();
             cost += removed;
-            heap.add(removed);
+            minHeap.add(removed);
         }
         return cost;
     }

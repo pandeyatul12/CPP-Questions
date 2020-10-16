@@ -1,7 +1,10 @@
 package com.kunal.topKElements;
 
 import java.util.*;
-
+/*
+    Time: O(N + NLogK) = O(NLogK)
+    Space: O(K)
+*/
 public class TopKFrequent {
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 12, 11, 12, 11};
@@ -15,17 +18,17 @@ public class TopKFrequent {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
-        PriorityQueue<Map.Entry<Integer, Integer>> heap = new PriorityQueue<>(Comparator.comparingInt(o -> o.getValue()));
+        PriorityQueue<Map.Entry<Integer, Integer>> minHeap = new PriorityQueue<>(Comparator.comparingInt(o -> o.getValue()));
         for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            heap.add(entry);
-            if (heap.size() > k) {
-                heap.remove();
+            minHeap.add(entry);
+            if (minHeap.size() > k) {
+                minHeap.remove();
             }
         }
 
         List<Integer> ans = new ArrayList<>();
-        while (!heap.isEmpty()) {
-            ans.add(heap.remove().getKey());
+        while (!minHeap.isEmpty()) {
+            ans.add(minHeap.remove().getKey());
         }
         return ans;
     }
