@@ -1,4 +1,4 @@
-package com.kunal.binaryTree;
+package com.kunal.binaryTree.bfs;
 
 import java.util.*;
 
