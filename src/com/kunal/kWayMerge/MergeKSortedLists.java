@@ -1,7 +1,10 @@
 package com.kunal.kWayMerge;
 
 import java.util.*;
-
+/*
+    Time: O(NLogK)
+    Space: O(K)
+*/
 public class MergeKSortedLists {
 
     public static ListNode merge(ListNode[] lists) {
