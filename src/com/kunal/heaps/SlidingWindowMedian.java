@@ -1,7 +1,13 @@
 package com.kunal.heaps;
 
 import java.util.*;
-
+/*
+    Time: O(N * K)  ‘N’ is the total number of elements in the input array and ‘K’ is the size of the sliding window.
+        1. Inserting/removing numbers from heaps of size ‘K’, this takes O(LogK)
+        2. Removing the element going out of the sliding window.
+           This will take O(K) as we will be searching this element in an array of size ‘K’ (i.e., a heap).
+    Space: O(K)
+*/
 public class SlidingWindowMedian {
     PriorityQueue<Integer> minHeap = new PriorityQueue<>();
     PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
