@@ -52,9 +52,10 @@ public class MatrixChainMultiplication {
     // Every recursive call loops over the list of dims which is O(n)
     // and the number of i - j pairs would be bound by O(N^2), hence time is O(N^3)
     public static int minMultiRecDP(int[] dims) {
-        Integer[][] dp = new Integer[dims.length+1][dims.length+1];
+        Integer[][] dp = new Integer[dims.length + 1][dims.length + 1];
         return minMultiRecDP(dims, 0, dims.length, dp);
     }
+
     private static int minMultiRecDP(int[] dims, int i, int j, Integer[][] dp) {
         if (j - i <= 2) {
             return 0;
