@@ -24,7 +24,6 @@ public class SearchInfiniteSortedArray {
                 return mid;
             }
         }
-
         return -1;
     }
 
