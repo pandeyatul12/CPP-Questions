@@ -10,8 +10,8 @@ import java.util.*;
 class KthSmallestInMSortedArrays {
 
     public static int findKthSmallest(List<Integer[]> lists, int k) {
-        PriorityQueue<Node> minHeap = new PriorityQueue<Node>(
-                (n1, n2) -> lists.get(n1.arrayIndex)[n1.elementIndex] - lists.get(n2.arrayIndex)[n2.elementIndex]);
+        PriorityQueue<Node> minHeap = new PriorityQueue<>(
+                Comparator.comparingInt(n -> lists.get(n.arrayIndex)[n.elementIndex]));
 
         // put the 1st element of each array in the min heap
         for (int i = 0; i < lists.size(); i++)
