@@ -13,6 +13,6 @@
   </a> 
   
 
-### [Competitive Programming Progress](https://github.com/pandeyatul12/CPP-Questions/src/com/kunal)
+### [Competitive Programming Progress](https://github.com/pandeyatul12/CPP-Questions/tree/CPP/src/com/kunal)
 
 ### [Competitive Programming Resources](https://github.com/pandeyatul12/Competitive-Programming-Resources)
